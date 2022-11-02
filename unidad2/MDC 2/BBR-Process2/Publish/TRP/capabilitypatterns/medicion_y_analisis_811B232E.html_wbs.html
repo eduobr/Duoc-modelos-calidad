@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Medici&oacute;n y An&aacute;lisis</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="medicion_y_analisis">
+<meta name="uma.presentationName" content="Medici&oacute;n y An&aacute;lisis">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_co7METWPEd6XRs5f6vMEMg&path=_co7METWPEd6XRs5f6vMEMg';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_co7METWPEd6XRs5f6vMEMg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Medici&oacute;n y An&aacute;lisis</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../TRP/capabilitypatterns/medicion_y_analisis_811B232E.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Work Breakdown Structure</span></td><td width="1"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../TRP/capabilitypatterns/medicion_y_analisis_811B232E.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../TRP/capabilitypatterns/medicion_y_analisis_811B232E.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="5"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Workflow</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="Activity" id="diagram_Activity" src="./../../TRP/capabilitypatterns/resources/medicion_y_analisis_811B232E_Activity.jpeg" alt="Activity diagram: Medici&oacute;n y An&aacute;lisis" title="Activity diagram: Medici&oacute;n y An&aacute;lisis" usemap="#Activity_medicion_y_analisis"><map name="Activity_medicion_y_analisis">
+<area href="./../../TRP/capabilitypatterns/Definir Objetivos de la Medici&oacute;n_E334C512.html" relpath=",_BDwxcTWQEd6XRs5f6vMEMg" alt="Definir Objetivos de la Medici&oacute;n" title="Definir Objetivos de la Medici&oacute;n" coords="192, 72, 350, 125" shape="rect"></area>
+<area href="./../../TRP/capabilitypatterns/Analizar Resultados de la Medici&oacute;n_3E5FD1B8.html" relpath=",_xf-okTWREd6XRs5f6vMEMg" alt="Analizar Resultados de la Medici&oacute;n" title="Analizar Resultados de la Medici&oacute;n" coords="12, 144, 189, 197" shape="rect"></area>
+</map>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Work Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Work Breakdown", summary: "Work Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["steps", "Steps"],
+["id", "Index"],
+["predecessors", "Predecessors"],
+["model_info", "Model Info"],
+["type", "Type"],
+["is_planned", "Planned"],
+["is_repeatable", "Repeatable"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_ongoing", "Ongoing"],
+["is_event_driven", "Event Driven"],
+["is_optional", "Optional"],
+["teams", "Team"]],
+rows: [
+		
+{id: "91022f43", parentId: "", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "1", prefix: "", name: "Definir Objetivos de la Medición", title: "Definir Objetivos de la Medición", url: "./../../TRP/capabilitypatterns/Definir Objetivos de la Medición_E334C512.html", 
+	predecessors: "", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "e1d0038d", parentId: "91022f43", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_GAtMkDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "2", prefix: "", name: "establecer_objetivos_de_la_medicion", title: "Establecer Objetivos de la Medición", url: "./../../TRP/capabilitypatterns/establecer_objetivos_de_la_medicion_3573CC0A.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "33f1afcd", parentId: "e1d0038d", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_GAtMkDWQEd6XRs5f6vMEMg,_GA29kTWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_7708C488.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e37eff3c", parentId: "e1d0038d", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_GAtMkDWQEd6XRs5f6vMEMg,_GA29kjWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_procesos", title: "Grupo de ingeniería de procesos", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_procesos_65A1D89E.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e7a7b32", parentId: "e1d0038d", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_GAtMkDWQEd6XRs5f6vMEMg,_GA29kDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_6C6AE478.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e572b945", parentId: "e1d0038d", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_GAtMkDWQEd6XRs5f6vMEMg,_GBAHgDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_6339B5D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "4195c67a", parentId: "91022f43", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_Ig5RYDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "3", prefix: "", name: "especificar_metricas", title: "Especificar Métricas", url: "./../../TRP/capabilitypatterns/especificar_metricas_5271F3A4.html", 
+	predecessors: "2", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "36545455", parentId: "4195c67a", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_Ig5RYDWQEd6XRs5f6vMEMg,_GA29kjWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_procesos", title: "Grupo de ingeniería de procesos", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_procesos_65A1D89E.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e1ae1f20", parentId: "4195c67a", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_Ig5RYDWQEd6XRs5f6vMEMg,_GBAHgDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_6339B5D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "38ab71ee", parentId: "4195c67a", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_Ig5RYDWQEd6XRs5f6vMEMg,_GBAHgDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_6339B5D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "45e1d132", parentId: "91022f43", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_JvRwEDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "4", prefix: "", name: "especificar_procedimientos_de_recoleccion_y_almacenamiento_de_datos", title: "Especificar Procedimientos de Recolección y Almacenamiento de Datos", url: "./../../TRP/capabilitypatterns/especificar_procedimientos_de_recoleccion_y_almacenamiento_de_da_317DD00E.html", 
+	predecessors: "3", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "37f4b824", parentId: "45e1d132", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_JvRwEDWQEd6XRs5f6vMEMg,_GA29kjWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_procesos", title: "Grupo de ingeniería de procesos", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_procesos_65A1D89E.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e3452a0b", parentId: "45e1d132", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_JvRwEDWQEd6XRs5f6vMEMg,_GBAHgDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_6339B5D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9190f372", parentId: "45e1d132", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_JvRwEDWQEd6XRs5f6vMEMg,_GBAHgDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_6339B5D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9104b15d", parentId: "91022f43", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_LRnskDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "5", prefix: "", name: "especificar_procedimientos_de_analisis", title: "Especificar Procedimientos de Análisis", url: "./../../TRP/capabilitypatterns/especificar_procedimientos_de_analisis_C5B83B22.html", 
+	predecessors: "4", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "38adbfba", parentId: "9104b15d", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_LRnskDWQEd6XRs5f6vMEMg,_GA29kjWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_procesos", title: "Grupo de ingeniería de procesos", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_procesos_65A1D89E.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ea8fb04a", parentId: "9104b15d", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_LRnskDWQEd6XRs5f6vMEMg,_GBAHgDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_6339B5D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e6c949d", parentId: "9104b15d", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_LRnskDWQEd6XRs5f6vMEMg,_GBAHgDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_6339B5D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "93557882", parentId: "91022f43", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_MiF18DWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "6", prefix: "", name: "informar_metricas_definidas_a_involucrados", title: "Informar Métricas Definidas a Involucrados", url: "./../../TRP/capabilitypatterns/informar_metricas_definidas_a_involucrados_DB54591.html", 
+	predecessors: "5", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e392b44c", parentId: "93557882", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_MiF18DWQEd6XRs5f6vMEMg,_GA29kDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_6C6AE478.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "35650dce", parentId: "93557882", relPath: ",_BDwxcTWQEd6XRs5f6vMEMg,_MiF18DWQEd6XRs5f6vMEMg,_GBAHgDWQEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_6339B5D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3ed34edb", parentId: "", relPath: ",_xf-okTWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "7", prefix: "", name: "Analizar Resultados de la Medición", title: "Analizar Resultados de la Medición", url: "./../../TRP/capabilitypatterns/Analizar Resultados de la Medición_3E5FD1B8.html", 
+	predecessors: "", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "390ea47d", parentId: "3ed34edb", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_4lt8MDWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "8", prefix: "", name: "recolectar_datos_de_las_mediciones", title: "Recolectar Datos de las Mediciones", url: "./../../TRP/capabilitypatterns/recolectar_datos_de_las_mediciones_C90114B2.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e0be4b8f", parentId: "390ea47d", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_4lt8MDWREd6XRs5f6vMEMg,_4mUZITWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "analista_de_calidad", title: "Analista de calidad", url: "./../../TRP/capabilitypatterns/analista_de_calidad_11F867E8.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "440a27ed", parentId: "390ea47d", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_4lt8MDWREd6XRs5f6vMEMg,_4mUZIDWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "equipo_de_proyecto", title: "Equipo de proyecto", url: "./../../TRP/capabilitypatterns/equipo_de_proyecto_75A87D8.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "360ec761", parentId: "390ea47d", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_4lt8MDWREd6XRs5f6vMEMg,_4mUZIjWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_procesos", title: "Grupo de ingeniería de procesos", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_procesos_917BFE.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e1f0dcb", parentId: "390ea47d", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_4lt8MDWREd6XRs5f6vMEMg,_4mdjEDWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_6234AAFD.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "44aa0594", parentId: "390ea47d", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_4lt8MDWREd6XRs5f6vMEMg,_4mdjEzWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_evaluacion_de_estado", title: "Planilla de evaluación de estado", url: "./../../TRP/capabilitypatterns/planilla_de_evaluacion_de_estado_66097F33.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8fcca80b", parentId: "390ea47d", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_4lt8MDWREd6XRs5f6vMEMg,_4mdjEjWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_registro_de_horas", title: "Planilla de registro de horas ", url: "./../../TRP/capabilitypatterns/planilla_de_registro_de_horas_5B6B9F23.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e8bfc8b3", parentId: "390ea47d", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_4lt8MDWREd6XRs5f6vMEMg,_4mdjETWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_verificacion_del_proceso", title: "Planilla de verificación del proceso", url: "./../../TRP/capabilitypatterns/planilla_de_verificacion_del_proceso_6CD28B0D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3470e917", parentId: "3ed34edb", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_73hrMDWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "9", prefix: "", name: "analizar_los_datos_recolectados", title: "Analizar los Datos Recolectados", url: "./../../TRP/capabilitypatterns/analizar_los_datos_recolectados_4B87B41C.html", 
+	predecessors: "8", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ec0bc22d", parentId: "3470e917", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_73hrMDWREd6XRs5f6vMEMg,_74bDEDWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_D12901BD.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d1b07c2", parentId: "3470e917", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_73hrMDWREd6XRs5f6vMEMg,_4mUZIjWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_procesos", title: "Grupo de ingeniería de procesos", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_procesos_917BFE.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d571e86", parentId: "3470e917", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_73hrMDWREd6XRs5f6vMEMg,_743vADWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_63723582.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "40bf8057", parentId: "3470e917", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_73hrMDWREd6XRs5f6vMEMg,_743vADWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_63723582.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3a704a60", parentId: "3ed34edb", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_-CIsIDWSEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "10", prefix: "", name: "almacenar_datos_recolectados", title: "Almacenar Datos Recolectados", url: "./../../TRP/capabilitypatterns/almacenar_datos_recolectados_DC830FFB.html", 
+	predecessors: "9", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46c21ffd", parentId: "3a704a60", relPath: ",_xf-okTWREd6XRs5f6vMEMg,_-CIsIDWSEd6XRs5f6vMEMg,_4mUZIjWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_procesos", title: "Grupo de ingeniería de procesos", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_procesos_917BFE.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e012b90b", parentId: "3ed34edb", relPath: ",_xf-okTWREd6XRs5f6vMEMg,__58iUDWSEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "11", prefix: "", name: "comunicar_los_resultados", title: "Comunicar los Resultados", url: "./../../TRP/capabilitypatterns/comunicar_los_resultados_3EB3A196.html", 
+	predecessors: "10", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ea336c97", parentId: "e012b90b", relPath: ",_xf-okTWREd6XRs5f6vMEMg,__58iUDWSEd6XRs5f6vMEMg,_4mUZIjWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_procesos", title: "Grupo de ingeniería de procesos", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_procesos_917BFE.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "43ff8c30", parentId: "e012b90b", relPath: ",_xf-okTWREd6XRs5f6vMEMg,__58iUDWSEd6XRs5f6vMEMg,_743vADWREd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_63723582.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

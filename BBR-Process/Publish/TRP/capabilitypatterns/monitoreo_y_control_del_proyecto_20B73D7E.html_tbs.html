@@ -1,0 +1,716 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Monitoreo y Control del Proyecto</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="monitoreo_y_control_del_proyecto">
+<meta name="uma.presentationName" content="Monitoreo y Control del Proyecto">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_qGs5cTWHEd6XRs5f6vMEMg&path=_qGs5cTWHEd6XRs5f6vMEMg';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_qGs5cTWHEd6XRs5f6vMEMg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Monitoreo y Control del Proyecto</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../TRP/capabilitypatterns/monitoreo_y_control_del_proyecto_20B73D7E.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WBS" href="./../../TRP/capabilitypatterns/monitoreo_y_control_del_proyecto_20B73D7E.html_wbs.html"><span style="white-space:nowrap;">Work Breakdown Structure</span></a></td><td width="1"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Team Allocation</span></td><td width="21"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../TRP/capabilitypatterns/monitoreo_y_control_del_proyecto_20B73D7E.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="4"><img src="./../../images/shim.gif" alt="" title="" height="2"></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="3"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Team Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Team Breakdown", summary: "Team Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["model_info", "Model Info"],
+["teams", "Team"],
+["type", "Type"],
+["is_planned", "Planned"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_optional", "Optional"]],
+rows: [
+
+{id: "eaf9cff1", parentId: "", relPath: ",__1bPsDWHEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_23E45A26.html", 
+	predecessors: "", info: "", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "39c10e75", parentId: "eaf9cff1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "acta_de_entrega", title: "Acta de entrega", url: "./../../TRP/capabilitypatterns/acta_de_entrega_4BF28288.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "36ff0b9f", parentId: "eaf9cff1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "minuta_de_reunion", title: "Minuta de reunión", url: "./../../TRP/capabilitypatterns/minuta_de_reunion_233AFF8D.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "415b5733", parentId: "eaf9cff1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_evaluacion_de_estado", title: "Planilla de evaluación de estado", url: "./../../TRP/capabilitypatterns/planilla_de_evaluacion_de_estado_81661FD1.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ee7e0ba1", parentId: "eaf9cff1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "presentacion_de_cierre_de_proyecto", title: "Presentación de cierre de proyecto", url: "./../../TRP/capabilitypatterns/presentacion_de_cierre_de_proyecto_AF7864A.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "44f86672", parentId: "eaf9cff1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "presentacion_de_estado_de_avance", title: "Presentación de estado de avance", url: "./../../TRP/capabilitypatterns/presentacion_de_estado_de_avance_8C03FFE1.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "93840416", parentId: "eaf9cff1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "comunicar_cambios_a_los_afectados", title: "Comunicar Cambios a los Afectados", url: "./../../TRP/capabilitypatterns/comunicar_cambios_a_los_afectados_59D1A49.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "436dcce1", parentId: "eaf9cff1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "evaluar_estado", title: "Evaluar Estado", url: "./../../TRP/capabilitypatterns/evaluar_estado_D5AA8138.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "96056775", parentId: "eaf9cff1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "hacer_reunion_de_seguimiento", title: "Hacer Reunión de Seguimiento", url: "./../../TRP/capabilitypatterns/hacer_reunion_de_seguimiento_3E68ABDF.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "8ada382b", parentId: "eaf9cff1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "realizar_cierre_del_proyecto", title: "Realizar Cierre del Proyecto", url: "./../../TRP/capabilitypatterns/realizar_cierre_del_proyecto_CEF25410.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ecbe2a3b", parentId: "", relPath: ",_6LoVoTWHEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "equipo_de_proyecto", title: "Equipo de proyecto", url: "./../../TRP/capabilitypatterns/equipo_de_proyecto_7A27E037.html", 
+	predecessors: "", info: "", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "92cd5943", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "acta_de_entrega", title: "Acta de entrega", url: "./../../TRP/capabilitypatterns/acta_de_entrega_4BF28288.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ea5d772b", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "carta_gantt_de_iteracion", title: "Carta Gantt de iteración", url: "./../../TRP/capabilitypatterns/carta_gantt_de_iteracion_55D01138.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "95eaa0c4", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "carta_gantt_de_proyecto", title: "Carta Gantt de proyecto", url: "./../../TRP/capabilitypatterns/carta_gantt_de_proyecto_6736FD22.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "441ce20f", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_695AF47A.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "8b1088a2", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_5C991D12.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e51e5fa5", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "presentacion_de_cierre_de_proyecto", title: "Presentación de cierre de proyecto", url: "./../../TRP/capabilitypatterns/presentacion_de_cierre_de_proyecto_AF7864A.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "37d8d79b", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "hacer_seguimento_de_actividades_planificadas", title: "Hacer Seguimiento de Actividades Planificadas", url: "./../../TRP/capabilitypatterns/hacer_seguimento_de_actividades_planificadas_4231A546.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "eb065b55", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "hacer_seguimiento_de_riesgos_del_proyecto", title: "Hacer Seguimiento de Riesgos del Proyecto", url: "./../../TRP/capabilitypatterns/hacer_seguimiento_de_riesgos_del_proyecto_E2A04912.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e89c55b2", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "realizar_cierre_del_proyecto", title: "Realizar Cierre del Proyecto", url: "./../../TRP/capabilitypatterns/realizar_cierre_del_proyecto_CEF25410.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e1e38548", parentId: "ecbe2a3b", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "resolver_temas_pendientes_de_aseguramiento_de_calidad_de_proceso_y_producto", title: "Resolver Temas Pendientes de Aseguramiento de Calidad de Proceso y Producto", url: "./../../TRP/capabilitypatterns/resolver_temas_pendientes_de_aseguramiento_de_calidad_de_proceso_2B566038.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3c45d10d", parentId: "", relPath: ",_CRJEMDWIEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_ABB123D7.html", 
+	predecessors: "", info: "", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "de5e1cab", parentId: "3c45d10d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "acta_de_entrega", title: "Acta de entrega", url: "./../../TRP/capabilitypatterns/acta_de_entrega_4BF28288.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "40cf1e15", parentId: "3c45d10d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_evaluacion_de_estado", title: "Planilla de evaluación de estado", url: "./../../TRP/capabilitypatterns/planilla_de_evaluacion_de_estado_81661FD1.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "44206b7e", parentId: "3c45d10d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "presentacion_de_cierre_de_proyecto", title: "Presentación de cierre de proyecto", url: "./../../TRP/capabilitypatterns/presentacion_de_cierre_de_proyecto_AF7864A.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "31d0d106", parentId: "3c45d10d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "presentacion_de_estado_de_avance", title: "Presentación de estado de avance", url: "./../../TRP/capabilitypatterns/presentacion_de_estado_de_avance_8C03FFE1.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e435b360", parentId: "3c45d10d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "comunicar_cambios_a_los_afectados", title: "Comunicar Cambios a los Afectados", url: "./../../TRP/capabilitypatterns/comunicar_cambios_a_los_afectados_59D1A49.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "409dbd52", parentId: "3c45d10d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "evaluar_estado", title: "Evaluar Estado", url: "./../../TRP/capabilitypatterns/evaluar_estado_D5AA8138.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "38db0e11", parentId: "3c45d10d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "realizar_cierre_del_proyecto", title: "Realizar Cierre del Proyecto", url: "./../../TRP/capabilitypatterns/realizar_cierre_del_proyecto_CEF25410.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3ee99ca4", parentId: "3c45d10d", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "resolver_temas_pendientes_de_aseguramiento_de_calidad_de_proceso_y_producto", title: "Resolver Temas Pendientes de Aseguramiento de Calidad de Proceso y Producto", url: "./../../TRP/capabilitypatterns/resolver_temas_pendientes_de_aseguramiento_de_calidad_de_proceso_2B566038.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3c3daae7", parentId: "", relPath: ",_D8ImYDWIEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_sistemas", title: "Grupo de Ingeniería de Sistemas", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_sistemas_5C81F899.html", 
+	predecessors: "", info: "", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "44d44e48", parentId: "3c3daae7", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_882F2BAB.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "4941cd19", parentId: "3c3daae7", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "actualizar_trazabilidad", title: "Actualizar Trazabilidad", url: "./../../TRP/capabilitypatterns/actualizar_trazabilidad_CC5FE34.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e3ae3a33", parentId: "", relPath: ",_D8ImYTWIEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "grupo_de_ingenieria_de_software", title: "Grupo de Ingeniería de Software", url: "./../../TRP/capabilitypatterns/grupo_de_ingenieria_de_software_671FD8A9.html", 
+	predecessors: "", info: "", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e4508ad6", parentId: "e3ae3a33", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_882F2BAB.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3b579810", parentId: "e3ae3a33", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "actualizar_trazabilidad", title: "Actualizar Trazabilidad", url: "./../../TRP/capabilitypatterns/actualizar_trazabilidad_CC5FE34.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e848d9fa", parentId: "", relPath: ",_CRJEMTWIEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "stakeholder", title: "Involucrado (Stakeholder)", url: "./../../TRP/capabilitypatterns/stakeholder_B64F03E7.html", 
+	predecessors: "", info: "", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ece62760", parentId: "e848d9fa", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "acta_de_entrega", title: "Acta de entrega", url: "./../../TRP/capabilitypatterns/acta_de_entrega_4BF28288.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "494a28d4", parentId: "e848d9fa", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_evaluacion_de_estado", title: "Planilla de evaluación de estado", url: "./../../TRP/capabilitypatterns/planilla_de_evaluacion_de_estado_81661FD1.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "9475054d", parentId: "e848d9fa", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "presentacion_de_cierre_de_proyecto", title: "Presentación de cierre de proyecto", url: "./../../TRP/capabilitypatterns/presentacion_de_cierre_de_proyecto_AF7864A.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "91b375d8", parentId: "e848d9fa", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "presentacion_de_estado_de_avance", title: "Presentación de estado de avance", url: "./../../TRP/capabilitypatterns/presentacion_de_estado_de_avance_8C03FFE1.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e8c86f72", parentId: "e848d9fa", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "comunicar_cambios_a_los_afectados", title: "Comunicar Cambios a los Afectados", url: "./../../TRP/capabilitypatterns/comunicar_cambios_a_los_afectados_59D1A49.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "418025d4", parentId: "e848d9fa", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "evaluar_estado", title: "Evaluar Estado", url: "./../../TRP/capabilitypatterns/evaluar_estado_D5AA8138.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3b7b6175", parentId: "e848d9fa", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "realizar_cierre_del_proyecto", title: "Realizar Cierre del Proyecto", url: "./../../TRP/capabilitypatterns/realizar_cierre_del_proyecto_CEF25410.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "490f4cc5", parentId: "", relPath: ",_6LoVoDWHEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_6F8A0027.html", 
+	predecessors: "", info: "", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "33dc8fb7", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "acta_de_entrega", title: "Acta de entrega", url: "./../../TRP/capabilitypatterns/acta_de_entrega_4BF28288.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e96a3f91", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "carta_gantt_de_iteracion", title: "Carta Gantt de iteración", url: "./../../TRP/capabilitypatterns/carta_gantt_de_iteracion_55D01138.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "336c54d6", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "carta_gantt_de_proyecto", title: "Carta Gantt de proyecto", url: "./../../TRP/capabilitypatterns/carta_gantt_de_proyecto_6736FD22.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "9044afe5", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_695AF47A.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3931001d", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "minuta_de_reunion", title: "Minuta de reunión", url: "./../../TRP/capabilitypatterns/minuta_de_reunion_233AFF8D.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "de7ccfd6", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_5C991D12.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "43f3b527", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_882F2BAB.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "93720ea6", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_evaluacion_de_estado", title: "Planilla de evaluación de estado", url: "./../../TRP/capabilitypatterns/planilla_de_evaluacion_de_estado_81661FD1.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "4008e6e2", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_verificacion_del_proceso", title: "Planilla de verificación del proceso", url: "./../../TRP/capabilitypatterns/planilla_de_verificacion_del_proceso_EE8503B0.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3eea213d", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "presentacion_de_estado_de_avance", title: "Presentación de estado de avance", url: "./../../TRP/capabilitypatterns/presentacion_de_estado_de_avance_8C03FFE1.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e053ef48", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "actualizar_trazabilidad", title: "Actualizar Trazabilidad", url: "./../../TRP/capabilitypatterns/actualizar_trazabilidad_CC5FE34.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "41ab578d", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "comunicar_cambios_a_los_afectados", title: "Comunicar Cambios a los Afectados", url: "./../../TRP/capabilitypatterns/comunicar_cambios_a_los_afectados_59D1A49.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "e98d7d86", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "evaluar_estado", title: "Evaluar Estado", url: "./../../TRP/capabilitypatterns/evaluar_estado_D5AA8138.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3c6fb9b0", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "generar_y_enviar_acta_de_entrega", title: "Generar y Enviar Acta de Entrega", url: "./../../TRP/capabilitypatterns/generar_y_enviar_acta_de_entrega_6AD70201.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "90fd2b94", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "hacer_reunion_de_seguimiento", title: "Hacer Reunión de Seguimiento", url: "./../../TRP/capabilitypatterns/hacer_reunion_de_seguimiento_3E68ABDF.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "945d4b95", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "hacer_seguimento_de_actividades_planificadas", title: "Hacer Seguimiento de Actividades Planificadas", url: "./../../TRP/capabilitypatterns/hacer_seguimento_de_actividades_planificadas_4231A546.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "441dbf3f", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "hacer_seguimiento_de_riesgos_del_proyecto", title: "Hacer Seguimiento de Riesgos del Proyecto", url: "./../../TRP/capabilitypatterns/hacer_seguimiento_de_riesgos_del_proyecto_E2A04912.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3b490bd0", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "recolectar_metricas_del_proyecto", title: "Recolectar Métricas del Proyecto", url: "./../../TRP/capabilitypatterns/recolectar_metricas_del_proyecto_841CEBB8.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ed8a8c3e", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "resolver_temas_pendientes_de_aseguramiento_de_calidad_de_proceso_y_producto", title: "Resolver Temas Pendientes de Aseguramiento de Calidad de Proceso y Producto", url: "./../../TRP/capabilitypatterns/resolver_temas_pendientes_de_aseguramiento_de_calidad_de_proceso_2B566038.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "8af6218b", parentId: "490f4cc5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "revisar_reportes_de_aseguramiento_de_calidad_de_producto_y_proceso", title: "Revisar Reportes de Aseguramiento de Calidad de Producto y Proceso", url: "./../../TRP/capabilitypatterns/revisar_reportes_de_aseguramiento_de_calidad_de_producto_y_proce_379A92B1.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3aae2209", parentId: "", relPath: ",_QFYQIjWIEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "proveedor", title: "Proveedor", url: "./../../TRP/capabilitypatterns/proveedor_8D3D66C4.html", 
+	predecessors: "", info: "", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3551bbb9", parentId: "3aae2209", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "acta_de_entrega", title: "Acta de entrega", url: "./../../TRP/capabilitypatterns/acta_de_entrega_4BF28288.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "3a744a37", parentId: "3aae2209", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "presentacion_de_cierre_de_proyecto", title: "Presentación de cierre de proyecto", url: "./../../TRP/capabilitypatterns/presentacion_de_cierre_de_proyecto_AF7864A.html", 
+	predecessors: "", info: "Modifies", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "371b4d29", parentId: "3aae2209", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "realizar_cierre_del_proyecto", title: "Realizar Cierre del Proyecto", url: "./../../TRP/capabilitypatterns/realizar_cierre_del_proyecto_CEF25410.html", 
+	predecessors: "", info: "Performs as Owner", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

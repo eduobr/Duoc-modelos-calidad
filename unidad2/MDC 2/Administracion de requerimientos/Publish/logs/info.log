@@ -1,0 +1,110 @@
+Info: DeliveryProcess:Proceso: 811 mini seconds publishing element
+Info: DeliveryProcess:Proceso: 1460 mini seconds publishing process specific layout data
+Info: Activity:Comprender Requerimiento: 250 mini seconds publishing element
+Info: Task:Identificar Contraparte: 111 mini seconds publishing element
+Info: TaskDescriptor:Identificar Contraparte: 5 mini seconds publishing element
+Info: Role:Gerente de Proyectos: 254 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Proyectos: 5 mini seconds publishing element
+Info: Role:Jefe de Proyecto: 65 mini seconds publishing element
+Info: RoleDescriptor:Jefe de Proyecto: 7 mini seconds publishing element
+Info: Artifact:Asignacion de Roles: 152 mini seconds publishing element
+Info: WorkProductDescriptor:Asignacion de Roles: 4 mini seconds publishing element
+Info: Artifact:Plan de Proyecto: 458 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de Proyecto: 4 mini seconds publishing element
+Info: Task:Revisar Requerimientos: 8 mini seconds publishing element
+Info: TaskDescriptor:Revisar Requerimientos: 4 mini seconds publishing element
+Info: Artifact:Analisis Preliminar: 135 mini seconds publishing element
+Info: WorkProductDescriptor:Analisis Preliminar: 5 mini seconds publishing element
+Info: Artifact:Especificacion de Requerimientos: 186 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de Requerimientos: 6 mini seconds publishing element
+Info: Artifact:Modelo de Casos de Uso: 87 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de Casos de Uso: 4 mini seconds publishing element
+Info: Artifact:Administracion de Requerimientos: 848 mini seconds publishing element
+Info: WorkProductDescriptor:Administracion de Requerimientos: 4 mini seconds publishing element
+Info: Artifact:Plan de Revisiones: 84 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de Revisiones: 3 mini seconds publishing element
+Info: Task:Asegurar Entedimiento Comun de Requerimientos: 6 mini seconds publishing element
+Info: TaskDescriptor:Asegurar Entedimiento Comun de Requerimientos: 2 mini seconds publishing element
+Info: Role:Equipo de Proyecto: 43 mini seconds publishing element
+Info: RoleDescriptor:Equipo de Proyecto: 2 mini seconds publishing element
+Info: Activity:Comprometer Requerimiento: 219 mini seconds publishing element
+Info: Task:Evaluar Impacto y Facibilidad: 6 mini seconds publishing element
+Info: TaskDescriptor:Evaluar Impacto y Facibilidad: 3 mini seconds publishing element
+Info: Role:Area Comercial: 42 mini seconds publishing element
+Info: RoleDescriptor:Area Comercial: 4 mini seconds publishing element
+Info: RoleDescriptor:Equipo de Proyecto: 3 mini seconds publishing element
+Info: RoleDescriptor:Jefe de Proyecto: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Analisis Preliminar: 2 mini seconds publishing element
+Info: Artifact:Orden de Servicio: 469 mini seconds publishing element
+Info: WorkProductDescriptor:Orden de Servicio: 7 mini seconds publishing element
+Info: Artifact:Tiempo Esfuerzo y Costo: 202 mini seconds publishing element
+Info: WorkProductDescriptor:Tiempo Esfuerzo y Costo: 4 mini seconds publishing element
+Info: Task:Negociar y Registrar Compromisos: 6 mini seconds publishing element
+Info: TaskDescriptor:Negociar y Registrar Compromisos: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Administracion de Requerimientos: 3 mini seconds publishing element
+Info: Activity:Seguir Requerimientos: 149 mini seconds publishing element
+Info: Task:Revisar Consistencia de Requerimientos: 7 mini seconds publishing element
+Info: TaskDescriptor:Revisar Consistencia de Requerimientos: 3 mini seconds publishing element
+Info: RoleDescriptor:Jefe de Proyecto: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Administracion de Requerimientos: 5 mini seconds publishing element
+Info: Artifact:Carta Gantt: 290 mini seconds publishing element
+Info: WorkProductDescriptor:Carta Gantt: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de Proyecto: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de Revisiones: 2 mini seconds publishing element
+Info: Task:Analizar Inconsistencia de Requerimientos: 11 mini seconds publishing element
+Info: TaskDescriptor:Analizar Inconsistencia de Requerimientos: 3 mini seconds publishing element
+Info: Task:Identificar Cambios en Planes: 8 mini seconds publishing element
+Info: TaskDescriptor:Identificar Cambios en Planes: 3 mini seconds publishing element
+Info: Task:Iniciar Acciones Correctivas: 7 mini seconds publishing element
+Info: TaskDescriptor:Iniciar Acciones Correctivas: 2 mini seconds publishing element
+Info: Activity:Administrar Cambios: 380 mini seconds publishing element
+Info: Task:Recepcionar Cambios de Requerimientos: 7 mini seconds publishing element
+Info: TaskDescriptor:Recepcionar Cambios de Requerimientos: 2 mini seconds publishing element
+Info: Role:Cliente: 25 mini seconds publishing element
+Info: RoleDescriptor:Cliente: 4 mini seconds publishing element
+Info: RoleDescriptor:Jefe de Proyecto: 11 mini seconds publishing element
+Info: Artifact:Minuta de Reunion: 68 mini seconds publishing element
+Info: WorkProductDescriptor:Minuta de Reunion: 2 mini seconds publishing element
+Info: : 1168 mini-second(s) publishing element Artifact:Solicitud de Requerimientos[AdministracionRequerimientos\workproducts\Solicitud de Requerimientos_9DF0AEC8.html]
+Info: Artifact:Solicitud de Requerimientos: 1169 mini seconds publishing element
+Info: WorkProductDescriptor:Solicitud de Requerimientos: 9 mini seconds publishing element
+Info: Task:Analizar Cambios: 8 mini seconds publishing element
+Info: TaskDescriptor:Analizar Cambios: 3 mini seconds publishing element
+Info: Role:Analista: 27 mini seconds publishing element
+Info: RoleDescriptor:Analista: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Administracion de Requerimientos: 5 mini seconds publishing element
+Info: Task:Estimar Cambios: 6 mini seconds publishing element
+Info: TaskDescriptor:Estimar Cambios: 3 mini seconds publishing element
+Info: RoleDescriptor:Area Comercial: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Tiempo Esfuerzo y Costo: 2 mini seconds publishing element
+Info: WorkProductDescriptor:Orden de Servicio: 4 mini seconds publishing element
+Info: Task:Aprobar Cambios por Parte de Proveedor: 6 mini seconds publishing element
+Info: TaskDescriptor:Aprobar Cambios por Parte de Proveedor: 2 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Proyectos: 2 mini seconds publishing element
+Info: Task:Aprobar Cambios por Parte del Cliente: 5 mini seconds publishing element
+Info: TaskDescriptor:Aprobar Cambios por Parte del Cliente: 4 mini seconds publishing element
+Info: Task:Aprobar Ordenes de Servicio Adicionales: 8 mini seconds publishing element
+Info: TaskDescriptor:Aprobar Ordenes de Servicio Adicionales: 2 mini seconds publishing element
+Info: Task:Actualizar Linea Base de Requerimientos: 6 mini seconds publishing element
+Info: TaskDescriptor:Actualizar Linea Base de Requerimientos: 3 mini seconds publishing element
+Info: Task:Actualizar Planes y Otros Artefactos: 5 mini seconds publishing element
+Info: TaskDescriptor:Actualizar Planes y Otros Artefactos: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de Proyecto: 3 mini seconds publishing element
+Info: Template:Plantilla Asignacion de Roles: 106 mini seconds publishing element
+Info: Template:Plantilla Plan de Proyecto: 13 mini seconds publishing element
+Info: Template:Plantilla Analisis Premilinar: 15 mini seconds publishing element
+Info: Template:Plantilla Especificacion de Requerimientos de Software ERS: 14 mini seconds publishing element
+Info: Template:Plantilla Modelo de Casos de Uso: 14 mini seconds publishing element
+Info: Template:Plantilla de Administracion de Requerimientos: 21 mini seconds publishing element
+Info: Template:Plantilla Plan de Revisiones: 14 mini seconds publishing element
+Info: Template:Plantilla de Orden de Servicio: 13 mini seconds publishing element
+Info: Template:Plantilla Carta Gantt: 13 mini seconds publishing element
+Info: Template:Plantilla Minuta de Reunion: 14 mini seconds publishing element
+Info: Template:Plantilla Solicitud de Requerimientos: 14 mini seconds publishing element
+Info: CustomCategory:Configuration free process view: 101 mini seconds publishing element
+Info: CustomCategory:Tasks: 6 mini seconds publishing element
+Info: CustomCategory:Roles: 4 mini seconds publishing element
+Info: CustomCategory:Work Products: 5 mini seconds publishing element
+Info: CustomCategory:Guidance: 5 mini seconds publishing element
+Info: CustomCategory:Processes: 3 mini seconds publishing element
+Info: : Publishing time: 0 minutes 13 seconds

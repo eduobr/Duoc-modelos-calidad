@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Administraci&oacute;n de Configuraciones</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="administracion_de_configuraciones">
+<meta name="uma.presentationName" content="Administraci&oacute;n de Configuraciones">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_QVk8YTWVEd6XRs5f6vMEMg&path=_QVk8YTWVEd6XRs5f6vMEMg';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_QVk8YTWVEd6XRs5f6vMEMg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Administraci&oacute;n de Configuraciones</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../TRP/capabilitypatterns/administracion_de_configuraciones_7533B8D0.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Work Breakdown Structure</span></td><td width="1"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../TRP/capabilitypatterns/administracion_de_configuraciones_7533B8D0.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../TRP/capabilitypatterns/administracion_de_configuraciones_7533B8D0.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="5"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Workflow</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="Activity" id="diagram_Activity" src="./../../TRP/capabilitypatterns/resources/administracion_de_configuraciones_7533B8D0_Activity.jpeg" alt="Activity diagram: Administraci&oacute;n de Configuraciones" title="Activity diagram: Administraci&oacute;n de Configuraciones" usemap="#Activity_administracion_de_configuraciones"><map name="Activity_administracion_de_configuraciones">
+<area href="./../../TRP/capabilitypatterns/realizar_auditorias_5A2D4682.html" relpath=",_bWcMUTWWEd6XRs5f6vMEMg" alt="Realizar Auditorias" title="Realizar Auditorias" coords="468, 216, 564, 269" shape="rect" guid="_bWcMUTWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/Generar L&iacute;nea Base Inicial_49E90D71.html" relpath=",_dnbXgTWWEd6XRs5f6vMEMg" alt="Generar L&iacute;nea Base Inicial" title="Generar L&iacute;nea Base Inicial" coords="171, 72, 304, 125" shape="rect"></area>
+<area href="./../../TRP/capabilitypatterns/Administrar &Iacute;tems de Configuraci&oacute;n_AB50FF9F.html" relpath=",_ilc7QTWXEd6XRs5f6vMEMg" alt="Administrar &Iacute;tems de Configuraci&oacute;n" title="Administrar &Iacute;tems de Configuraci&oacute;n" coords="0, 216, 177, 269" shape="rect"></area>
+<area href="./../../TRP/capabilitypatterns/Actualizar L&iacute;nea Base_F93940D4.html" relpath=",_0HDw0TWXEd6XRs5f6vMEMg" alt="Actualizar L&iacute;nea Base" title="Actualizar L&iacute;nea Base" coords="180, 216, 292, 269" shape="rect"></area>
+<area href="./../../TRP/capabilitypatterns/Seguir y Controlar Cambios_7548D5A7.html" relpath=",_G3yr8TWYEd6XRs5f6vMEMg" alt="Seguir y Controlar Cambios" title="Seguir y Controlar Cambios" coords="300, 216, 438, 269" shape="rect" guid="_G3yr8TWYEd6XRs5f6vMEMg"></area>
+</map>
+</td>
+</tr>
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="ActivityDetail" id="diagram_ActivityDetail" src="./../../TRP/capabilitypatterns/resources/administracion_de_configuraciones_7533B8D0_ActivityDetail.jpeg" alt="Activity detail diagram: Administraci&oacute;n de Configuraciones" title="Activity detail diagram: Administraci&oacute;n de Configuraciones" usemap="#ActivityDetail_administracion_de_configuraciones"><map name="ActivityDetail_administracion_de_configuraciones">
+<area href="./../../TRP/capabilitypatterns/analista_de_calidad_48C65A98.html" relpath=",_bWcMUjWWEd6XRs5f6vMEMg" alt="Analista de calidad" title="Analista de calidad" coords="40, 11, 136, 51" shape="rect" guid="_bWcMUjWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/realizar_auditorias_5A2D4682.html" relpath=",_bWcMUTWWEd6XRs5f6vMEMg" alt="Realizar Auditorias" title="Realizar Auditorias" coords="156, 11, 254, 51" shape="rect" guid="_bWcMUTWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/analista_de_calidad_48C65A98.html" relpath=",_bWcMUjWWEd6XRs5f6vMEMg" alt="Analista de calidad" title="Analista de calidad" coords="30, 1, 284, 61" shape="rect" guid="_bWcMUjWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/administrador_de_configuraciones_53643AA8.html" relpath=",_bWcMUzWWEd6XRs5f6vMEMg" alt="Administrador de configuraciones" title="Administrador de configuraciones" coords="40, 231, 212, 271" shape="rect" guid="_bWcMUzWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/realizar_auditorias_5A2D4682.html" relpath=",_bWcMUTWWEd6XRs5f6vMEMg" alt="Realizar Auditorias" title="Realizar Auditorias" coords="232, 231, 330, 271" shape="rect" guid="_bWcMUTWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/administrador_de_configuraciones_53643AA8.html" relpath=",_bWcMUzWWEd6XRs5f6vMEMg" alt="Administrador de configuraciones" title="Administrador de configuraciones" coords="30, 221, 360, 281" shape="rect" guid="_bWcMUzWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/planilla_de_verificacion_del_proceso_14214891.html" relpath=",_bWcMVDWWEd6XRs5f6vMEMg" alt="Planilla de verificaci&oacute;n del proceso" title="Planilla de verificaci&oacute;n del proceso" coords="166, 91, 244, 170" shape="rect" guid="_bWcMVDWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/realizar_auditorias_5A2D4682.html" relpath=",_bWcMUTWWEd6XRs5f6vMEMg" alt="Realizar Auditorias" title="Realizar Auditorias" coords="151, 81, 259, 180" shape="rect" guid="_bWcMUTWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/planilla_de_verificacion_del_proceso_14214891.html" relpath=",_bWcMVDWWEd6XRs5f6vMEMg" alt="Planilla de verificaci&oacute;n del proceso" title="Planilla de verificaci&oacute;n del proceso" coords="242, 311, 320, 390" shape="rect" guid="_bWcMVDWWEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/realizar_auditorias_5A2D4682.html" relpath=",_bWcMUTWWEd6XRs5f6vMEMg" alt="Realizar Auditorias" title="Realizar Auditorias" coords="227, 301, 335, 400" shape="rect" guid="_bWcMUTWWEd6XRs5f6vMEMg"></area>
+</map>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Work Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Work Breakdown", summary: "Work Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["steps", "Steps"],
+["id", "Index"],
+["predecessors", "Predecessors"],
+["model_info", "Model Info"],
+["type", "Type"],
+["is_planned", "Planned"],
+["is_repeatable", "Repeatable"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_ongoing", "Ongoing"],
+["is_event_driven", "Event Driven"],
+["is_optional", "Optional"],
+["teams", "Team"]],
+rows: [
+		
+{id: "3a841575", parentId: "", relPath: ",_bWcMUTWWEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "1", prefix: "", name: "realizar_auditorias", title: "Realizar Auditorias", url: "./../../TRP/capabilitypatterns/realizar_auditorias_5A2D4682.html", 
+	predecessors: "2", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46ad33a0", parentId: "3a841575", relPath: ",_bWcMUTWWEd6XRs5f6vMEMg,_bWcMUzWWEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_53643AA8.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "38d09839", parentId: "3a841575", relPath: ",_bWcMUTWWEd6XRs5f6vMEMg,_bWcMUjWWEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "analista_de_calidad", title: "Analista de calidad", url: "./../../TRP/capabilitypatterns/analista_de_calidad_48C65A98.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8b12ce44", parentId: "3a841575", relPath: ",_bWcMUTWWEd6XRs5f6vMEMg,_bWcMVDWWEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_verificacion_del_proceso", title: "Planilla de verificación del proceso", url: "./../../TRP/capabilitypatterns/planilla_de_verificacion_del_proceso_14214891.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e26d658", parentId: "", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "2", prefix: "", name: "Generar Línea Base Inicial", title: "Generar Línea Base Inicial", url: "./../../TRP/capabilitypatterns/Generar Línea Base Inicial_49E90D71.html", 
+	predecessors: "", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "dff7367a", parentId: "8e26d658", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_Zlq80DWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "3", prefix: "", name: "generar_plan_de_administracion_de_configuraciones", title: "Generar Plan de Administración de Configuraciones", url: "./../../TRP/capabilitypatterns/generar_plan_de_administracion_de_configuraciones_E0932532.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "39781e57", parentId: "dff7367a", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_Zlq80DWXEd6XRs5f6vMEMg,_Zl93wDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_B54E0E3E.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ecad0bd0", parentId: "dff7367a", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_Zlq80DWXEd6XRs5f6vMEMg,_ZmHBsDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_4F16C523.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "96213c63", parentId: "dff7367a", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_Zlq80DWXEd6XRs5f6vMEMg,_ZmHBsTWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_59B4A533.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e1a01428", parentId: "8e26d658", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_b0HxYDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "4", prefix: "", name: "obtener_linea_base_inicial", title: "Obtener Línea Base Inicial", url: "./../../TRP/capabilitypatterns/obtener_linea_base_inicial_EDF1C1EE.html", 
+	predecessors: "3", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3ab616d6", parentId: "e1a01428", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_b0HxYDWXEd6XRs5f6vMEMg,_Zl93wDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_B54E0E3E.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "44b6c228", parentId: "8e26d658", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_dmtwYDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "5", prefix: "", name: "categorizar_linea_base", title: "Categorizar Línea Base", url: "./../../TRP/capabilitypatterns/categorizar_linea_base_FD962D7C.html", 
+	predecessors: "4", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e7df0d95", parentId: "44b6c228", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_dmtwYDWXEd6XRs5f6vMEMg,_Zl93wDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_B54E0E3E.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "398edb39", parentId: "44b6c228", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_dmtwYDWXEd6XRs5f6vMEMg,_ZmHBsTWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_59B4A533.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8d757619", parentId: "8e26d658", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_gLrAcDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "6", prefix: "", name: "ingresar_artefactos_a_la_base_de_datos_de_administracion_de_configuraciones", title: "Ingresar Artefactos a la Base de Datos de Administración de Configuraciones (BDAC)", url: "./../../TRP/capabilitypatterns/ingresar_artefactos_a_la_base_de_datos_de_administracion_de_conf_6DEE417A.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8ab6fb7e", parentId: "8d757619", relPath: ",_dnbXgTWWEd6XRs5f6vMEMg,_gLrAcDWXEd6XRs5f6vMEMg,_Zl93wDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_B54E0E3E.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46b3d7d7", parentId: "", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "7", prefix: "", name: "Administrar Ítems de Configuración", title: "Administrar Ítems de Configuración", url: "./../../TRP/capabilitypatterns/Administrar Ítems de Configuración_AB50FF9F.html", 
+	predecessors: "2", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "4920f5cf", parentId: "46b3d7d7", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_mZ1L0DWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "8", prefix: "", name: "distribuir_items_de_configuracion", title: "Distribuir Ítems de Configuración", url: "./../../TRP/capabilitypatterns/distribuir_items_de_configuracion_2298C741.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ed7ca34b", parentId: "4920f5cf", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_mZ1L0DWXEd6XRs5f6vMEMg,_maRQsDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_CD2636E9.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "38ce1ed1", parentId: "4920f5cf", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_mZ1L0DWXEd6XRs5f6vMEMg,_makysDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_8E936C58.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "90e6ba21", parentId: "46b3d7d7", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_NWAmEDmJEd6wTrf-Te6bDw", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "9", prefix: "", name: "recibir_items_de_configuracion_e_ingresarlos_a_la_base_de_datos_de_administracion_de_configuraciones", title: "Recibir Ítems de Configuración e Ingresarlos a la Base de Datos de Administración de Configuraciones (BDAC)", url: "./../../TRP/capabilitypatterns/recibir_items_de_configuracion_e_ingresarlos_a_la_base_de_datos__F13F63A5.html", 
+	predecessors: "8", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "33a1806d", parentId: "90e6ba21", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_NWAmEDmJEd6wTrf-Te6bDw,_maRQsDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_CD2636E9.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "47a53fdd", parentId: "90e6ba21", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_NWAmEDmJEd6wTrf-Te6bDw,_makysDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_8E936C58.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e6d0f659", parentId: "46b3d7d7", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_qauOYDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "10", prefix: "", name: "distribuir_items_de_configuracion_a_integradores", title: "Distribuir Ítems de Configuración a Integradores", url: "./../../TRP/capabilitypatterns/distribuir_items_de_configuracion_a_integradores_37B5BA.html", 
+	predecessors: "9", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "44a871bb", parentId: "e6d0f659", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_qauOYDWXEd6XRs5f6vMEMg,_maRQsDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_CD2636E9.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ee864912", parentId: "e6d0f659", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_qauOYDWXEd6XRs5f6vMEMg,_makysDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_8E936C58.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "de431bf7", parentId: "46b3d7d7", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_omWGsDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "11", prefix: "", name: "recibir_items_de_configuracion_de_integradores_e_ingresarlos_a_la_base_de_datos_de_administracion_de_configuraciones", title: "Recibir Ítems de Configuración de Integradores e Ingresarlos a la Base de Datos de Administración de Configuraciones (BDAC)", url: "./../../TRP/capabilitypatterns/recibir_items_de_configuracion_de_integradores_e_ingresarlos_a_l_EEDE8C84.html", 
+	predecessors: "10", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "de7ccdad", parentId: "de431bf7", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_omWGsDWXEd6XRs5f6vMEMg,_maRQsDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_CD2636E9.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8adaa137", parentId: "de431bf7", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_omWGsDWXEd6XRs5f6vMEMg,_makysDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_8E936C58.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "31bc6e9f", parentId: "46b3d7d7", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_vPoH0DWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "12", prefix: "", name: "distribuir_items_de_configuracion_para_pruebas", title: "Distribuir Ítems de Configuración para Pruebas", url: "./../../TRP/capabilitypatterns/distribuir_items_de_configuracion_para_pruebas_41DB23CC.html", 
+	predecessors: "11", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "414243c9", parentId: "31bc6e9f", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_vPoH0DWXEd6XRs5f6vMEMg,_maRQsDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_CD2636E9.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ecbb2ef0", parentId: "31bc6e9f", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_vPoH0DWXEd6XRs5f6vMEMg,_makysDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_8E936C58.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8f4317ea", parentId: "46b3d7d7", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_xBUu8DWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "13", prefix: "", name: "recibir_items_de_configuracion_de_testeadores_e_ingresarlos_a_la_base_de_datos_de_administracion_de_configuraciones", title: "Recibir Ítems de Configuración de Testeadores e Ingresarlas a la Base de Datos de  Administración de Configuraciones (BDAC)", url: "./../../TRP/capabilitypatterns/recibir_items_de_configuracion_de_testeadores_e_ingresarlos_a_la_639BA63B.html", 
+	predecessors: "12", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8d8bcd5f", parentId: "8f4317ea", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_xBUu8DWXEd6XRs5f6vMEMg,_maRQsDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_CD2636E9.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ecf6bf4a", parentId: "8f4317ea", relPath: ",_ilc7QTWXEd6XRs5f6vMEMg,_xBUu8DWXEd6XRs5f6vMEMg,_makysDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_8E936C58.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e74b45e", parentId: "", relPath: ",_0HDw0TWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "14", prefix: "", name: "Actualizar Línea Base", title: "Actualizar Línea Base", url: "./../../TRP/capabilitypatterns/Actualizar Línea Base_F93940D4.html", 
+	predecessors: "2", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "3490fabd", parentId: "8e74b45e", relPath: ",_0HDw0TWXEd6XRs5f6vMEMg,__wkKkDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "15", prefix: "", name: "autorizar_nueva_linea_base", title: "Autorizar Nueva Línea Base", url: "./../../TRP/capabilitypatterns/autorizar_nueva_linea_base_2F3BAF16.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3aa77f6b", parentId: "3490fabd", relPath: ",_0HDw0TWXEd6XRs5f6vMEMg,__wkKkDWXEd6XRs5f6vMEMg,__xdicDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_DBD02BA4.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "932a7e31", parentId: "3490fabd", relPath: ",_0HDw0TWXEd6XRs5f6vMEMg,__wkKkDWXEd6XRs5f6vMEMg,__x5nUDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_99735B46.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d1d880f", parentId: "8e74b45e", relPath: ",_0HDw0TWXEd6XRs5f6vMEMg,_CAzu4DWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "16", prefix: "", name: "publicar_nueva_linea_base", title: "Publicar Nueva Línea Base", url: "./../../TRP/capabilitypatterns/publicar_nueva_linea_base_3F4AEB4F.html", 
+	predecessors: "15", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "de0aee94", parentId: "3d1d880f", relPath: ",_0HDw0TWXEd6XRs5f6vMEMg,_CAzu4DWYEd6XRs5f6vMEMg,_CCABsDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_2C694758.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3b8021d7", parentId: "3d1d880f", relPath: ",_0HDw0TWXEd6XRs5f6vMEMg,_CAzu4DWYEd6XRs5f6vMEMg,__x5nUDWXEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_99735B46.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46cac008", parentId: "8e74b45e", relPath: ",_0HDw0TWXEd6XRs5f6vMEMg,_D46gADWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "17", prefix: "", name: "notificar_a_los_afectados_sobre_linea_base", title: "Notificar a los Afectados sobre Línea Base", url: "./../../TRP/capabilitypatterns/notificar_a_los_afectados_sobre_linea_base_5726602A.html", 
+	predecessors: "16", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d2db9f7", parentId: "46cac008", relPath: ",_0HDw0TWXEd6XRs5f6vMEMg,_D46gADWYEd6XRs5f6vMEMg,_CCABsDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_2C694758.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "31fae6a0", parentId: "", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "18", prefix: "", name: "Seguir y Controlar Cambios", title: "Seguir y Controlar Cambios", url: "./../../TRP/capabilitypatterns/Seguir y Controlar Cambios_7548D5A7.html", 
+	predecessors: "2", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "3ca17d4d", parentId: "31fae6a0", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_J6jSUDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "19", prefix: "", name: "analizar_y_documentar_solicitudes_de_cambio", title: "Analizar y Documentar Solicitudes de Cambio", url: "./../../TRP/capabilitypatterns/analizar_y_documentar_solicitudes_de_cambio_EE703D8A.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e3761303", parentId: "3ca17d4d", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_J6jSUDWYEd6XRs5f6vMEMg,_J7vlIDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_B56C31E4.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3de307a1", parentId: "3ca17d4d", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_J6jSUDWYEd6XRs5f6vMEMg,_J8WCEDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_B2DB017F.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "38d0ce2a", parentId: "31fae6a0", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_MSGYgDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "20", prefix: "", name: "revisar_y_seguir_el_estado_de_las_solicitudes_de_cambio", title: "Revisar y Seguir el Estado de las Solicitudes de Cambio", url: "./../../TRP/capabilitypatterns/revisar_y_seguir_el_estado_de_las_solicitudes_de_cambio_E8751EBB.html", 
+	predecessors: "19", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e38afe0d", parentId: "38d0ce2a", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_MSGYgDWYEd6XRs5f6vMEMg,_J7vlIDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_B56C31E4.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3af1d1a6", parentId: "38d0ce2a", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_MSGYgDWYEd6XRs5f6vMEMg,_MTlmQDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_9C384461.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3a8fb253", parentId: "38d0ce2a", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_MSGYgDWYEd6XRs5f6vMEMg,_MTlmQTWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_A6D62471.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e604e6da", parentId: "38d0ce2a", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_MSGYgDWYEd6XRs5f6vMEMg,_MTlmQjWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_956F3887.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3c6784cb", parentId: "38d0ce2a", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_MSGYgDWYEd6XRs5f6vMEMg,_J8WCEDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_B2DB017F.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "4777f311", parentId: "38d0ce2a", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_MSGYgDWYEd6XRs5f6vMEMg,_MULcIDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "minuta_de_reunion", title: "Minuta de reunión", url: "./../../TRP/capabilitypatterns/minuta_de_reunion_875F8B80.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3b683c54", parentId: "31fae6a0", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_ORWTcDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "21", prefix: "", name: "controlar_los_items_de_configuracion", title: "Controlar los Ítems de Configuración (ICs)", url: "./../../TRP/capabilitypatterns/controlar_los_items_de_configuracion_4C699327.html", 
+	predecessors: "20", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "466ec8e4", parentId: "3b683c54", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_ORWTcDWYEd6XRs5f6vMEMg,_J7vlIDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_B56C31E4.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "42678960", parentId: "31fae6a0", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_QchxkDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "22", prefix: "", name: "revisar_y_documentar_cambios_de_los_ics", title: "Revisar y Documentar Cambios de los ICs", url: "./../../TRP/capabilitypatterns/revisar_y_documentar_cambios_de_los_ics_A1E16261.html", 
+	predecessors: "21", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "35579231", parentId: "42678960", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_QchxkDWYEd6XRs5f6vMEMg,_J7vlIDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administrador_de_configuraciones", title: "Administrador de configuraciones", url: "./../../TRP/capabilitypatterns/administrador_de_configuraciones_B56C31E4.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8f0870c5", parentId: "42678960", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_QchxkDWYEd6XRs5f6vMEMg,_QeA_UDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_773EAA67.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3ae44903", parentId: "42678960", relPath: ",_G3yr8TWYEd6XRs5f6vMEMg,_QchxkDWYEd6XRs5f6vMEMg,_QeA_UDWYEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_administracion_de_configuraciones", title: "Plan de administración de configuraciones", url: "./../../TRP/capabilitypatterns/plan_de_administracion_de_configuraciones_773EAA67.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

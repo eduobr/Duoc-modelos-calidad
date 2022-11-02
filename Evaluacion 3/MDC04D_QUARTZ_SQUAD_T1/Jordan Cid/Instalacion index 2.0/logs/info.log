@@ -1,0 +1,78 @@
+Info: : 1993 mini-second(s) publishing element DeliveryProcess:Instalacion[identificar_piezas_de_software_para_instalacin\deliveryprocesses\Instalacion_DFFB5E71.html]
+Info: DeliveryProcess:Instalacion: 1994 mini seconds publishing element
+Info: DeliveryProcess:Instalacion: 395 mini seconds publishing process specific layout data
+Info: Task:Planificar instalación e integración: 259 mini seconds publishing element
+Info: TaskDescriptor:Planificar instalación e integración: 9 mini seconds publishing element
+Info: : 1015 mini-second(s) publishing element Role:Administrador de ambientes[identificar_piezas_de_software_para_instalacin\roles\Administrador de ambientes_44AF91C5.html]
+Info: Role:Administrador de ambientes: 1016 mini seconds publishing element
+Info: RoleDescriptor:Administrador de ambientes: 8 mini seconds publishing element
+Info: Role:Arquitecto: 72 mini seconds publishing element
+Info: RoleDescriptor:Arquitecto: 8 mini seconds publishing element
+Info: Role:Integrador de sistemas: 43 mini seconds publishing element
+Info: RoleDescriptor:Integrador de sistemas: 7 mini seconds publishing element
+Info: Artifact:Especificación de ambientes: 351 mini seconds publishing element
+Info: WorkProductDescriptor:Especificación de ambientes: 5 mini seconds publishing element
+Info: Artifact:Modelo de diseño: 73 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de diseño: 5 mini seconds publishing element
+Info: Artifact:Plan de administración de configuraciones: 16 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de administración de configuraciones: 4 mini seconds publishing element
+Info: Artifact:Plan de proyecto: 16 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 6 mini seconds publishing element
+Info: Artifact:Carta Gantt de proyecto (Actualización): 17 mini seconds publishing element
+Info: WorkProductDescriptor:Carta Gantt de proyecto (Actualización): 5 mini seconds publishing element
+Info: Artifact:Plan de proyecto (Actualización): 16 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto (Actualización): 4 mini seconds publishing element
+Info: Task:Identificar piezas de software para instalación: 8 mini seconds publishing element
+Info: TaskDescriptor:Identificar piezas de software para instalación: 3 mini seconds publishing element
+Info: Artifact:Planilla de administración de requerimientos: 15 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de administración de requerimientos: 8 mini seconds publishing element
+Info: Task:Integrar piezas de software: 9 mini seconds publishing element
+Info: TaskDescriptor:Integrar piezas de software: 4 mini seconds publishing element
+Info: Task:Realizar pruebas de integración: 8 mini seconds publishing element
+Info: TaskDescriptor:Realizar pruebas de integración: 4 mini seconds publishing element
+Info: Role:Testeador: 33 mini seconds publishing element
+Info: RoleDescriptor:Testeador: 5 mini seconds publishing element
+Info: Artifact:Plan de pruebas: 15 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de pruebas: 3 mini seconds publishing element
+Info: Artifact:Planilla de casos de prueba: 15 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de casos de prueba: 3 mini seconds publishing element
+Info: Artifact:Sumario de la evaluación de pruebas: 22 mini seconds publishing element
+Info: WorkProductDescriptor:Sumario de la evaluación de pruebas: 5 mini seconds publishing element
+Info: Task:Instalar en certificación: 10 mini seconds publishing element
+Info: TaskDescriptor:Instalar en certificación: 3 mini seconds publishing element
+Info: Role:Cliente: 48 mini seconds publishing element
+Info: RoleDescriptor:Cliente: 7 mini seconds publishing element
+Info: Task:Realizar pruebas de instalación en certificación: 8 mini seconds publishing element
+Info: TaskDescriptor:Realizar pruebas de instalación en certificación: 3 mini seconds publishing element
+Info: Task:Realizar paso a producción: 7 mini seconds publishing element
+Info: TaskDescriptor:Realizar paso a producción: 2 mini seconds publishing element
+Info: Task:Instalar en producción: 7 mini seconds publishing element
+Info: TaskDescriptor:Instalar en producción: 3 mini seconds publishing element
+Info: Artifact:Manual de instalación: 53 mini seconds publishing element
+Info: WorkProductDescriptor:Manual de instalación: 3 mini seconds publishing element
+Info: Activity:Preparar Ambiente: 97 mini seconds publishing element
+Info: Task:Chequear ambiente actual: 14 mini seconds publishing element
+Info: TaskDescriptor:Chequear ambiente actual: 4 mini seconds publishing element
+Info: RoleDescriptor:Administrador de ambientes: 4 mini seconds publishing element
+Info: RoleDescriptor:Arquitecto: 3 mini seconds publishing element
+Info: Artifact:CheckList de ambientes: 73 mini seconds publishing element
+Info: WorkProductDescriptor:CheckList de ambientes: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Especificación de ambientes: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de diseño: 3 mini seconds publishing element
+Info: Task:Instalar y configurar ambiente: 10 mini seconds publishing element
+Info: TaskDescriptor:Instalar y configurar ambiente: 4 mini seconds publishing element
+Info: RoleDescriptor:Cliente: 3 mini seconds publishing element
+Info: Activity:Generar Documentación: 120 mini seconds publishing element
+Info: Task:Elaborar manual de instalación: 8 mini seconds publishing element
+Info: TaskDescriptor:Elaborar manual de instalación: 2 mini seconds publishing element
+Info: Role:Documentador: 38 mini seconds publishing element
+Info: RoleDescriptor:Documentador: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Manual de instalación: 3 mini seconds publishing element
+Info: Task:Elaborar documentos adicionales: 8 mini seconds publishing element
+Info: TaskDescriptor:Elaborar documentos adicionales: 2 mini seconds publishing element
+Info: CustomCategory:Configuration free process view: 222 mini seconds publishing element
+Info: CustomCategory:Tasks: 6 mini seconds publishing element
+Info: CustomCategory:Roles: 5 mini seconds publishing element
+Info: CustomCategory:Work Products: 6 mini seconds publishing element
+Info: CustomCategory:Processes: 3 mini seconds publishing element
+Info: : Publishing time: 0 minutes 9 seconds

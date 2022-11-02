@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Gesti&oacute;n de Riesgos</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="gestion_de_riesgos">
+<meta name="uma.presentationName" content="Gesti&oacute;n de Riesgos">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_a3ZnUVIbEd63cvTJRN1Oug&path=_a3ZnUVIbEd63cvTJRN1Oug';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_a3ZnUVIbEd63cvTJRN1Oug"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Gesti&oacute;n de Riesgos</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../TRP/capabilitypatterns/gestion_de_riesgos_FD6FA430.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Work Breakdown Structure</span></td><td width="1"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../TRP/capabilitypatterns/gestion_de_riesgos_FD6FA430.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../TRP/capabilitypatterns/gestion_de_riesgos_FD6FA430.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="5"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Workflow</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="Activity" id="diagram_Activity" src="./../../TRP/capabilitypatterns/resources/gestion_de_riesgos_FD6FA430_Activity.jpeg" alt="Activity diagram: Gesti&oacute;n de Riesgos" title="Activity diagram: Gesti&oacute;n de Riesgos" usemap="#Activity_gestion_de_riesgos"><map name="Activity_gestion_de_riesgos">
+<area href="./../../TRP/capabilitypatterns/Planificar la Administraci&oacute;n de Riesgos_422E15C3.html" relpath=",_6cql0FLUEd6n_5Ay6UlTFw" alt="Planificar la Administraci&oacute;n de Riesgos" title="Planificar la Administraci&oacute;n de Riesgos" coords="24, 24, 169, 91" shape="rect"></area>
+<area href="./../../TRP/capabilitypatterns/Identificar y Analizar Riesgos_670E1149.html" relpath=",_XdnzkVLVEd6n_5Ay6UlTFw" alt="Identificar y Analizar Riesgos" title="Identificar y Analizar Riesgos" coords="36, 120, 157, 187" shape="rect" guid="_XdnzkVLVEd6n_5Ay6UlTFw"></area>
+<area href="./../../TRP/capabilitypatterns/Seguir los Riesgos_1820AAB9.html" relpath=",_lqdswVLVEd6n_5Ay6UlTFw" alt="Seguir los Riesgos" title="Seguir los Riesgos" coords="48, 204, 143, 257" shape="rect" guid="_lqdswVLVEd6n_5Ay6UlTFw"></area>
+</map>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Work Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Work Breakdown", summary: "Work Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["steps", "Steps"],
+["id", "Index"],
+["predecessors", "Predecessors"],
+["model_info", "Model Info"],
+["type", "Type"],
+["is_planned", "Planned"],
+["is_repeatable", "Repeatable"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_ongoing", "Ongoing"],
+["is_event_driven", "Event Driven"],
+["is_optional", "Optional"],
+["teams", "Team"]],
+rows: [
+		
+{id: "e9fd81d9", parentId: "", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "1", prefix: "", name: "Planificar la Administración de Riesgos", title: "Planificar la Administración de Riesgos", url: "./../../TRP/capabilitypatterns/Planificar la Administración de Riesgos_422E15C3.html", 
+	predecessors: "", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "9376d4d8", parentId: "e9fd81d9", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_JcVDEFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "2", prefix: "", name: "desarrollar_calendario_de_actividades_para_administrar_los_riesgos", title: "Desarrollar Calendario de Actividades para Administrar los Riesgos", url: "./../../TRP/capabilitypatterns/desarrollar_calendario_de_actividades_para_administrar_los_riesg_ADC2BECE.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "45ed013f", parentId: "9376d4d8", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_JcVDEFLVEd6n_5Ay6UlTFw,_JcmI0FLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_61A95D91.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e97557e1", parentId: "9376d4d8", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_JcVDEFLVEd6n_5Ay6UlTFw,_JcmI0VLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_6C473DA1.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e1d65426", parentId: "9376d4d8", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_JcVDEFLVEd6n_5Ay6UlTFw,_JcpMIFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_81777CB9.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "edaddfc7", parentId: "9376d4d8", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_JcVDEFLVEd6n_5Ay6UlTFw,_JcpMIFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_81777CB9.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3ce29b2a", parentId: "e9fd81d9", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_PGLngFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "3", prefix: "", name: "identificar_fuentes_de_riesgos", title: "Identificar Fuentes de Riesgos", url: "./../../TRP/capabilitypatterns/identificar_fuentes_de_riesgos_412BF67E.html", 
+	predecessors: "2", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ee7da9a4", parentId: "3ce29b2a", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_PGLngFLVEd6n_5Ay6UlTFw,_JcmI0FLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_61A95D91.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8ad1fb84", parentId: "3ce29b2a", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_PGLngFLVEd6n_5Ay6UlTFw,_JcmI0VLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_6C473DA1.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3fc3c729", parentId: "3ce29b2a", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_PGLngFLVEd6n_5Ay6UlTFw,_PGLngVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_4BC9D68E.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8d92f8cd", parentId: "e9fd81d9", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_R6NOUFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "4", prefix: "", name: "desarrollar_una_estrategia_para_la_administracion_de_riesgos", title: "Desarrollar una Estrategia para la Administración de Riesgos", url: "./../../TRP/capabilitypatterns/desarrollar_una_estrategia_para_la_administracion_de_riesgos_8D6F0E5C.html", 
+	predecessors: "3", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3c5a5b2f", parentId: "8d92f8cd", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_R6NOUFLVEd6n_5Ay6UlTFw,_JcmI0FLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_61A95D91.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "417772db", parentId: "8d92f8cd", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_R6NOUFLVEd6n_5Ay6UlTFw,_JcmI0VLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_6C473DA1.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "444ec87d", parentId: "8d92f8cd", relPath: ",_6cql0FLUEd6n_5Ay6UlTFw,_R6NOUFLVEd6n_5Ay6UlTFw,_JcpMIFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_81777CB9.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "44fecb3b", parentId: "", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "5", prefix: "", name: "Identificar y Analizar Riesgos", title: "Identificar y Analizar Riesgos", url: "./../../TRP/capabilitypatterns/Identificar y Analizar Riesgos_670E1149.html", 
+	predecessors: "1", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "3a4e2e5c", parentId: "44fecb3b", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_dXfxAFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "6", prefix: "", name: "identificar_riesgos", title: "Identificar Riesgos", url: "./../../TRP/capabilitypatterns/identificar_riesgos_FB36DF11.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8ff02013", parentId: "3a4e2e5c", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_dXfxAFLVEd6n_5Ay6UlTFw,_dXgYEFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "equipo_de_proyecto", title: "Equipo de proyecto", url: "./../../TRP/capabilitypatterns/equipo_de_proyecto_D7E678D.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "4286a413", parentId: "3a4e2e5c", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_dXfxAFLVEd6n_5Ay6UlTFw,_dXgYEVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_181C479D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e50e39d", parentId: "3a4e2e5c", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_dXfxAFLVEd6n_5Ay6UlTFw,_dXgYEVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_181C479D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e442d8e4", parentId: "44fecb3b", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_fpvgcFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "7", prefix: "", name: "analizar_riesgos_y_estimar_magnitud", title: "Analizar Riesgos y Estimar Magnitud", url: "./../../TRP/capabilitypatterns/analizar_riesgos_y_estimar_magnitud_23C648A4.html", 
+	predecessors: "6", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "34774a24", parentId: "e442d8e4", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_fpvgcFLVEd6n_5Ay6UlTFw,_dXgYEFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "equipo_de_proyecto", title: "Equipo de proyecto", url: "./../../TRP/capabilitypatterns/equipo_de_proyecto_D7E678D.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3a89953d", parentId: "e442d8e4", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_fpvgcFLVEd6n_5Ay6UlTFw,_dXgYEVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_181C479D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "38ce0869", parentId: "e442d8e4", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_fpvgcFLVEd6n_5Ay6UlTFw,_dXgYEVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_181C479D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "441c6d16", parentId: "44fecb3b", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_jZXz4FLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "8", prefix: "", name: "desarrollar_plan_de_accion", title: "Desarrollar Plan de Acción", url: "./../../TRP/capabilitypatterns/desarrollar_plan_de_accion_309DB88A.html", 
+	predecessors: "7", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "44c66c6c", parentId: "441c6d16", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_jZXz4FLVEd6n_5Ay6UlTFw,_jZXz4VLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_3B3B989A.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "414df1e8", parentId: "441c6d16", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_jZXz4FLVEd6n_5Ay6UlTFw,_jZXz4lLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_29D4ACB0.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3a5b19da", parentId: "441c6d16", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_jZXz4FLVEd6n_5Ay6UlTFw,_dXgYEVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_181C479D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46cf6b00", parentId: "441c6d16", relPath: ",_XdnzkVLVEd6n_5Ay6UlTFw,_jZXz4FLVEd6n_5Ay6UlTFw,_dXgYEVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_181C479D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e869b287", parentId: "", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "9", prefix: "", name: "Seguir los Riesgos", title: "Seguir los Riesgos", url: "./../../TRP/capabilitypatterns/Seguir los Riesgos_1820AAB9.html", 
+	predecessors: "", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "93898ed4", parentId: "e869b287", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_pk0pgFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "10", prefix: "", name: "controlar_y_monitorear_riesgos", title: "Controlar y Monitorear Riesgos", url: "./../../TRP/capabilitypatterns/controlar_y_monitorear_riesgos_1D0721A0.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3e50708b", parentId: "93898ed4", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_pk0pgFLVEd6n_5Ay6UlTFw,_pk1QkFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_2F4EAA1C.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "4259a8f7", parentId: "93898ed4", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_pk0pgFLVEd6n_5Ay6UlTFw,_pk1QkVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_39EC8A2C.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46b68a5d", parentId: "93898ed4", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_pk0pgFLVEd6n_5Ay6UlTFw,_pk13oFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_279EBDFA.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8afcfee0", parentId: "93898ed4", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_pk0pgFLVEd6n_5Ay6UlTFw,_pk13oVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_323C9E0A.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ebce5947", parentId: "93898ed4", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_pk0pgFLVEd6n_5Ay6UlTFw,_pk13oFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_279EBDFA.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "351f8ca3", parentId: "93898ed4", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_pk0pgFLVEd6n_5Ay6UlTFw,_pk13oVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_323C9E0A.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "31d90a5d", parentId: "e869b287", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_sRRosFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "11", prefix: "", name: "ejecutar_plan_de_contingencia", title: "Ejecutar Plan de Contingencia", url: "./../../TRP/capabilitypatterns/ejecutar_plan_de_contingencia_A2530835.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e6dc120", parentId: "31d90a5d", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_sRRosFLVEd6n_5Ay6UlTFw,_sRSPwFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "equipo_de_proyecto", title: "Equipo de proyecto", url: "./../../TRP/capabilitypatterns/equipo_de_proyecto_B49A90B1.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ebf5d9f3", parentId: "31d90a5d", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_sRRosFLVEd6n_5Ay6UlTFw,_pk1QkVLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_39EC8A2C.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ea8fe1f6", parentId: "31d90a5d", relPath: ",_lqdswVLVEd6n_5Ay6UlTFw,_sRRosFLVEd6n_5Ay6UlTFw,_pk13oFLVEd6n_5Ay6UlTFw", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_riesgos", title: "Lista de riesgos", url: "./../../TRP/capabilitypatterns/lista_de_riesgos_279EBDFA.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

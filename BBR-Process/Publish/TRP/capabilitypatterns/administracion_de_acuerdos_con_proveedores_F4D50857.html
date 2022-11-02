@@ -1,0 +1,729 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Administraci&oacute;n de Acuerdos con Proveedores</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="administracion_de_acuerdos_con_proveedores">
+<meta name="uma.presentationName" content="Administraci&oacute;n de Acuerdos con Proveedores">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_VvxnITWIEd6XRs5f6vMEMg&path=_VvxnITWIEd6XRs5f6vMEMg';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_VvxnITWIEd6XRs5f6vMEMg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Administraci&oacute;n de Acuerdos con Proveedores</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../TRP/capabilitypatterns/administracion_de_acuerdos_con_proveedores_F4D50857.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Work Breakdown Structure</span></td><td width="1"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../TRP/capabilitypatterns/administracion_de_acuerdos_con_proveedores_F4D50857.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../TRP/capabilitypatterns/administracion_de_acuerdos_con_proveedores_F4D50857.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="5"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Workflow</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="Activity" id="diagram_Activity" src="./../../TRP/capabilitypatterns/resources/administracion_de_acuerdos_con_proveedores_F4D50857_Activity.jpeg" alt="Activity diagram: Administraci&oacute;n de Acuerdos con Proveedores" title="Activity diagram: Administraci&oacute;n de Acuerdos con Proveedores" usemap="#Activity_administracion_de_acuerdos_con_proveedores"><map name="Activity_administracion_de_acuerdos_con_proveedores">
+<area href="./../../TRP/capabilitypatterns/determinar_producto_y_o_servicio_a_adquirir_BBB0946C.html" relpath=",_UNT5YTWJEd6XRs5f6vMEMg" alt="Determinar Producto y/o Servicio a Adquirir" title="Determinar Producto y/o Servicio a Adquirir" coords="9, 60, 228, 113" shape="rect" guid="_UNT5YTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/Seleccionar Proveedor_B35E3ED6.html" relpath=",_WcXK4TWJEd6XRs5f6vMEMg" alt="Seleccionar Proveedor" title="Seleccionar Proveedor" coords="57, 144, 173, 197" shape="rect" guid="_WcXK4TWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/ejecutar_acuerdo_ED67538.html" relpath=",_glfhkDWKEd6XRs5f6vMEMg" alt="Ejecutar Acuerdo" title="Ejecutar Acuerdo" coords="69, 228, 158, 281" shape="rect" guid="_glfhkDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/evaluar_producto_y_o_servicio_D50A29D4.html" relpath=",_kM5tIDWKEd6XRs5f6vMEMg" alt="Evaluar Producto y/o Servicio" title="Evaluar Producto y/o Servicio" coords="33, 324, 183, 377" shape="rect" guid="_kM5tIDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="33, 492, 186, 545" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/implantar_producto_y_o_servicio_94C8FCE6.html" relpath=",_h8o94DWOEd6XRs5f6vMEMg" alt="Implantar Producto y/o Servicio" title="Implantar Producto y/o Servicio" coords="21, 576, 178, 629" shape="rect" guid="_h8o94DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/evaluar_al_proveedor_24566DDF.html" relpath=",_kenLYDWOEd6XRs5f6vMEMg" alt="Evaluar al Proveedor" title="Evaluar al Proveedor" coords="45, 660, 150, 713" shape="rect" guid="_kenLYDWOEd6XRs5f6vMEMg"></area>
+</map>
+</td>
+</tr>
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="ActivityDetail" id="diagram_ActivityDetail" src="./../../TRP/capabilitypatterns/resources/administracion_de_acuerdos_con_proveedores_F4D50857_ActivityDetail.jpeg" alt="Activity detail diagram: Administraci&oacute;n de Acuerdos con Proveedores" title="Activity detail diagram: Administraci&oacute;n de Acuerdos con Proveedores" usemap="#ActivityDetail_administracion_de_acuerdos_con_proveedores"><map name="ActivityDetail_administracion_de_acuerdos_con_proveedores">
+<area href="./../../TRP/capabilitypatterns/jefe_de_proyecto_39453262.html" relpath=",_UNm0UDWJEd6XRs5f6vMEMg" alt="Jefe de proyecto" title="Jefe de proyecto" coords="40, 170, 127, 210" shape="rect" guid="_UNm0UDWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/determinar_producto_y_o_servicio_a_adquirir_BBB0946C.html" relpath=",_UNT5YTWJEd6XRs5f6vMEMg" alt="Determinar Producto y/o Servicio a Adquirir" title="Determinar Producto y/o Servicio a Adquirir" coords="147, 158, 264, 223" shape="rect" guid="_UNT5YTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/ejecutar_acuerdo_ED67538.html" relpath=",_glfhkDWKEd6XRs5f6vMEMg" alt="Ejecutar Acuerdo" title="Ejecutar Acuerdo" coords="284, 170, 373, 210" shape="rect" guid="_glfhkDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/evaluar_producto_y_o_servicio_D50A29D4.html" relpath=",_kM5tIDWKEd6XRs5f6vMEMg" alt="Evaluar Producto y/o Servicio" title="Evaluar Producto y/o Servicio" coords="393, 165, 483, 216" shape="rect" guid="_kM5tIDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="503, 165, 596, 216" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/implantar_producto_y_o_servicio_94C8FCE6.html" relpath=",_h8o94DWOEd6XRs5f6vMEMg" alt="Implantar Producto y/o Servicio" title="Implantar Producto y/o Servicio" coords="616, 165, 713, 216" shape="rect" guid="_h8o94DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/evaluar_al_proveedor_24566DDF.html" relpath=",_kenLYDWOEd6XRs5f6vMEMg" alt="Evaluar al Proveedor" title="Evaluar al Proveedor" coords="733, 170, 838, 210" shape="rect" guid="_kenLYDWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/jefe_de_proyecto_39453262.html" relpath=",_UNm0UDWJEd6XRs5f6vMEMg" alt="Jefe de proyecto" title="Jefe de proyecto" coords="30, 148, 918, 233" shape="rect" guid="_UNm0UDWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/proveedor_277E2EC7.html" relpath=",_gmr0YDWKEd6XRs5f6vMEMg" alt="Proveedor" title="Proveedor" coords="40, 527, 93, 567" shape="rect" guid="_gmr0YDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/ejecutar_acuerdo_ED67538.html" relpath=",_glfhkDWKEd6XRs5f6vMEMg" alt="Ejecutar Acuerdo" title="Ejecutar Acuerdo" coords="113, 527, 202, 567" shape="rect" guid="_glfhkDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="222, 522, 315, 573" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/proveedor_277E2EC7.html" relpath=",_gmr0YDWKEd6XRs5f6vMEMg" alt="Proveedor" title="Proveedor" coords="30, 512, 355, 583" shape="rect" guid="_gmr0YDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/gerente_de_proyectos_873DC45A.html" relpath=",_YtzPwDWOEd6XRs5f6vMEMg" alt="Gerente de proyectos" title="Gerente de proyectos" coords="40, 821, 152, 861" shape="rect" guid="_YtzPwDWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="172, 816, 265, 867" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/gerente_de_proyectos_873DC45A.html" relpath=",_YtzPwDWOEd6XRs5f6vMEMg" alt="Gerente de proyectos" title="Gerente de proyectos" coords="30, 806, 295, 877" shape="rect" guid="_YtzPwDWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/especificacion_de_requerimientos_de_software_79867B54.html" relpath=",_UNwlUDWJEd6XRs5f6vMEMg" alt="Especificaci&oacute;n de Requerimientos de Software (ERS)" title="Especificaci&oacute;n de Requerimientos de Software (ERS)" coords="157, 39, 254, 118" shape="rect" guid="_UNwlUDWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/determinar_producto_y_o_servicio_a_adquirir_BBB0946C.html" relpath=",_UNT5YTWJEd6XRs5f6vMEMg" alt="Determinar Producto y/o Servicio a Adquirir" title="Determinar Producto y/o Servicio a Adquirir" coords="142, 29, 269, 128" shape="rect" guid="_UNT5YTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="174, 263, 235, 314" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/solicitud_de_cotizacion_72BD6F7A.html" relpath=",_UNwlUjWJEd6XRs5f6vMEMg" alt="Solicitud de cotizaci&oacute;n" title="Solicitud de cotizaci&oacute;n" coords="171, 319, 239, 370" shape="rect" guid="_UNwlUjWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/determinar_producto_y_o_servicio_a_adquirir_BBB0946C.html" relpath=",_UNT5YTWJEd6XRs5f6vMEMg" alt="Determinar Producto y/o Servicio a Adquirir" title="Determinar Producto y/o Servicio a Adquirir" coords="156, 253, 254, 380" shape="rect" guid="_UNT5YTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="298, 67, 359, 118" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/ejecutar_acuerdo_ED67538.html" relpath=",_glfhkDWKEd6XRs5f6vMEMg" alt="Ejecutar Acuerdo" title="Ejecutar Acuerdo" coords="283, 57, 374, 128" shape="rect" guid="_glfhkDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="298, 263, 359, 314" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/ejecutar_acuerdo_ED67538.html" relpath=",_glfhkDWKEd6XRs5f6vMEMg" alt="Ejecutar Acuerdo" title="Ejecutar Acuerdo" coords="283, 253, 374, 324" shape="rect" guid="_glfhkDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="408, 67, 469, 118" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/evaluar_producto_y_o_servicio_D50A29D4.html" relpath=",_kM5tIDWKEd6XRs5f6vMEMg" alt="Evaluar Producto y/o Servicio" title="Evaluar Producto y/o Servicio" coords="393, 57, 484, 128" shape="rect" guid="_kM5tIDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="408, 263, 469, 314" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/evaluar_producto_y_o_servicio_D50A29D4.html" relpath=",_kM5tIDWKEd6XRs5f6vMEMg" alt="Evaluar Producto y/o Servicio" title="Evaluar Producto y/o Servicio" coords="393, 253, 484, 324" shape="rect" guid="_kM5tIDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="519, 67, 580, 118" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="504, 57, 595, 128" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="519, 263, 580, 314" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="504, 253, 595, 324" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/especificacion_de_ambientes_300FD71E.html" relpath=",_h91QsDWOEd6XRs5f6vMEMg" alt="Especificaci&oacute;n de ambientes" title="Especificaci&oacute;n de ambientes" coords="626, 11, 703, 62" shape="rect" guid="_h91QsDWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/manual_de_instalacion_3AADB72E.html" relpath=",_h91QsTWOEd6XRs5f6vMEMg" alt="Manual de instalaci&oacute;n" title="Manual de instalaci&oacute;n" coords="629, 67, 699, 118" shape="rect" guid="_h91QsTWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/implantar_producto_y_o_servicio_94C8FCE6.html" relpath=",_h8o94DWOEd6XRs5f6vMEMg" alt="Implantar Producto y/o Servicio" title="Implantar Producto y/o Servicio" coords="611, 1, 718, 128" shape="rect" guid="_h8o94DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="634, 263, 695, 314" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/implantar_producto_y_o_servicio_94C8FCE6.html" relpath=",_h8o94DWOEd6XRs5f6vMEMg" alt="Implantar Producto y/o Servicio" title="Implantar Producto y/o Servicio" coords="619, 253, 710, 324" shape="rect" guid="_h8o94DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="755, 67, 816, 118" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/evaluar_al_proveedor_24566DDF.html" relpath=",_kenLYDWOEd6XRs5f6vMEMg" alt="Evaluar al Proveedor" title="Evaluar al Proveedor" coords="740, 57, 831, 128" shape="rect" guid="_kenLYDWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/documento_de_evaluacion_de_proveedor_3C40EF45.html" relpath=",_kf9PMDWOEd6XRs5f6vMEMg" alt="Documento de evaluaci&oacute;n de proveedor" title="Documento de evaluaci&oacute;n de proveedor" coords="748, 263, 822, 328" shape="rect" guid="_kf9PMDWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/evaluar_al_proveedor_24566DDF.html" relpath=",_kenLYDWOEd6XRs5f6vMEMg" alt="Evaluar al Proveedor" title="Evaluar al Proveedor" coords="733, 253, 837, 338" shape="rect" guid="_kenLYDWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="127, 431, 188, 482" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/ejecutar_acuerdo_ED67538.html" relpath=",_glfhkDWKEd6XRs5f6vMEMg" alt="Ejecutar Acuerdo" title="Ejecutar Acuerdo" coords="112, 421, 203, 492" shape="rect" guid="_glfhkDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="127, 613, 188, 664" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/ejecutar_acuerdo_ED67538.html" relpath=",_glfhkDWKEd6XRs5f6vMEMg" alt="Ejecutar Acuerdo" title="Ejecutar Acuerdo" coords="112, 603, 203, 674" shape="rect" guid="_glfhkDWKEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="238, 431, 299, 482" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="223, 421, 314, 492" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="238, 613, 299, 664" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="223, 603, 314, 674" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="188, 725, 249, 776" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="173, 715, 264, 786" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html" relpath=",_UNwlUTWJEd6XRs5f6vMEMg" alt="Plan de proyecto" title="Plan de proyecto" coords="188, 907, 249, 958" shape="rect" guid="_UNwlUTWJEd6XRs5f6vMEMg"></area>
+<area href="./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html" relpath=",_Ysm88DWOEd6XRs5f6vMEMg" alt="Aceptar Producto y/o Servicio" title="Aceptar Producto y/o Servicio" coords="173, 897, 264, 968" shape="rect" guid="_Ysm88DWOEd6XRs5f6vMEMg"></area>
+</map>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Work Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Work Breakdown", summary: "Work Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["steps", "Steps"],
+["id", "Index"],
+["predecessors", "Predecessors"],
+["model_info", "Model Info"],
+["type", "Type"],
+["is_planned", "Planned"],
+["is_repeatable", "Repeatable"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_ongoing", "Ongoing"],
+["is_event_driven", "Event Driven"],
+["is_optional", "Optional"],
+["teams", "Team"]],
+rows: [
+		
+{id: "8d6eb925", parentId: "", relPath: ",_UNT5YTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "1", prefix: "", name: "determinar_producto_y_o_servicio_a_adquirir", title: "Determinar Producto y/o Servicio a Adquirir", url: "./../../TRP/capabilitypatterns/determinar_producto_y_o_servicio_a_adquirir_BBB0946C.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e360867e", parentId: "8d6eb925", relPath: ",_UNT5YTWJEd6XRs5f6vMEMg,_UNm0UDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_39453262.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e96db56b", parentId: "8d6eb925", relPath: ",_UNT5YTWJEd6XRs5f6vMEMg,_UNwlUDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "especificacion_de_requerimientos_de_software", title: "Especificación de Requerimientos de Software (ERS)", url: "./../../TRP/capabilitypatterns/especificacion_de_requerimientos_de_software_79867B54.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "393d11a6", parentId: "8d6eb925", relPath: ",_UNT5YTWJEd6XRs5f6vMEMg,_UNwlUTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3dfbde94", parentId: "8d6eb925", relPath: ",_UNT5YTWJEd6XRs5f6vMEMg,_UNwlUjWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_cotizacion", title: "Solicitud de cotización", url: "./../../TRP/capabilitypatterns/solicitud_de_cotizacion_72BD6F7A.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8d707e9d", parentId: "", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "2", prefix: "", name: "Seleccionar Proveedor", title: "Seleccionar Proveedor", url: "./../../TRP/capabilitypatterns/Seleccionar Proveedor_B35E3ED6.html", 
+	predecessors: "1", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "8b11a923", parentId: "8d707e9d", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_bFWIMDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "3", prefix: "", name: "determinar_criterio_de_evaluacion_de_proveedores", title: "Determinar Criterio de Evaluación de Proveedores", url: "./../../TRP/capabilitypatterns/determinar_criterio_de_evaluacion_de_proveedores_B2740F24.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e4ddedb1", parentId: "8b11a923", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_bFWIMDWJEd6XRs5f6vMEMg,_bFpDIDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administracion_y_finanzas", title: "Administración y finanzas", url: "./../../TRP/capabilitypatterns/administracion_y_finanzas_3AA68D2A.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3aa7bb15", parentId: "8b11a923", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_bFWIMDWJEd6XRs5f6vMEMg,_bFpDITWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "area_comercial", title: "Área comercial", url: "./../../TRP/capabilitypatterns/area_comercial_45446D3A.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "36fdfd07", parentId: "8b11a923", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_bFWIMDWJEd6XRs5f6vMEMg,_bFy0IDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_4E07736D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9295cbe2", parentId: "8b11a923", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_bFWIMDWJEd6XRs5f6vMEMg,_bFy0ITWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "documento_de_evaluacion_producto_proveedor", title: "Documento de evaluación producto-proveedor", url: "./../../TRP/capabilitypatterns/documento_de_evaluacion_producto_proveedor_58A5537D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ee65d7a0", parentId: "8d707e9d", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_eTuIsDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "4", prefix: "", name: "buscar_proveedores_candidatos", title: "Buscar Proveedores Candidatos", url: "./../../TRP/capabilitypatterns/buscar_proveedores_candidatos_49015BCB.html", 
+	predecessors: "3", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "465f4350", parentId: "ee65d7a0", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_eTuIsDWJEd6XRs5f6vMEMg,_bFpDIDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "administracion_y_finanzas", title: "Administración y finanzas", url: "./../../TRP/capabilitypatterns/administracion_y_finanzas_3AA68D2A.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3b663ea5", parentId: "ee65d7a0", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_eTuIsDWJEd6XRs5f6vMEMg,_bFpDITWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "area_comercial", title: "Área comercial", url: "./../../TRP/capabilitypatterns/area_comercial_45446D3A.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "39d5ee91", parentId: "ee65d7a0", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_eTuIsDWJEd6XRs5f6vMEMg,_bFy0ITWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "documento_de_evaluacion_producto_proveedor", title: "Documento de evaluación producto-proveedor", url: "./../../TRP/capabilitypatterns/documento_de_evaluacion_producto_proveedor_58A5537D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e70fbf2b", parentId: "ee65d7a0", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_eTuIsDWJEd6XRs5f6vMEMg,_eUUloDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_proveedores_preferenciales", title: "Lista de proveedores preferenciales", url: "./../../TRP/capabilitypatterns/lista_de_proveedores_preferenciales_6D635A53.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e97df65d", parentId: "ee65d7a0", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_eTuIsDWJEd6XRs5f6vMEMg,_eUUloTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_proveedores", title: "Lista de proveedores", url: "./../../TRP/capabilitypatterns/lista_de_proveedores_78013A63.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e03db94e", parentId: "8d707e9d", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_fko-ADWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "5", prefix: "", name: "enviar_las_especificaciones_del_producto_y_o_servicio_a_los_proveedores", title: "Enviar las Especificaciones del Producto y/o Servicio a los Proveedores", url: "./../../TRP/capabilitypatterns/enviar_las_especificaciones_del_producto_y_o_servicio_a_los_prov_A059439D.html", 
+	predecessors: "4", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "919c3fc6", parentId: "e03db94e", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_fko-ADWJEd6XRs5f6vMEMg,_flYk4DWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_98E4FE1F.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8d51fb0d", parentId: "e03db94e", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_fko-ADWJEd6XRs5f6vMEMg,_flrf0DWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "especificacion_de_requerimientos_de_software", title: "Especificación de Requerimientos de Software (ERS)", url: "./../../TRP/capabilitypatterns/especificacion_de_requerimientos_de_software_21177C25.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e0e00609", parentId: "e03db94e", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_fko-ADWJEd6XRs5f6vMEMg,_eUUloTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_proveedores", title: "Lista de proveedores", url: "./../../TRP/capabilitypatterns/lista_de_proveedores_78013A63.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "eb1e81aa", parentId: "8d707e9d", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_h_daoDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "6", prefix: "", name: "recepcionar_propuestas", title: "Recepcionar Propuestas", url: "./../../TRP/capabilitypatterns/recepcionar_propuestas_3B177D80.html", 
+	predecessors: "5", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "41811d07", parentId: "eb1e81aa", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_h_daoDWJEd6XRs5f6vMEMg,_bFpDITWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "area_comercial", title: "Área comercial", url: "./../../TRP/capabilitypatterns/area_comercial_45446D3A.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e1fac2c0", parentId: "eb1e81aa", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_h_daoDWJEd6XRs5f6vMEMg,_flYk4DWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_98E4FE1F.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e1c76803", parentId: "eb1e81aa", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_h_daoDWJEd6XRs5f6vMEMg,_iAWygDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_propuestas", title: "Lista de propuestas", url: "./../../TRP/capabilitypatterns/lista_de_propuestas_A7E2A94E.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "37ef896f", parentId: "8d707e9d", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_j6_TMDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "7", prefix: "", name: "evaluar_propuestas_de_acuerdo_a_los_criterios_establecidos", title: "Evaluar Propuestas de Acuerdo a los Criterios Establecidos", url: "./../../TRP/capabilitypatterns/evaluar_propuestas_de_acuerdo_a_los_criterios_establecidos_3073724F.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e3392951", parentId: "37ef896f", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_j6_TMDWJEd6XRs5f6vMEMg,_bFpDITWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "area_comercial", title: "Área comercial", url: "./../../TRP/capabilitypatterns/area_comercial_45446D3A.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3b442646", parentId: "37ef896f", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_j6_TMDWJEd6XRs5f6vMEMg,_flYk4DWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_98E4FE1F.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d5f1209", parentId: "37ef896f", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_j6_TMDWJEd6XRs5f6vMEMg,_iAWygDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "lista_de_propuestas", title: "Lista de propuestas", url: "./../../TRP/capabilitypatterns/lista_de_propuestas_A7E2A94E.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "33cd859d", parentId: "37ef896f", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_j6_TMDWJEd6XRs5f6vMEMg,_bFy0ITWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "documento_de_evaluacion_producto_proveedor", title: "Documento de evaluación producto-proveedor", url: "./../../TRP/capabilitypatterns/documento_de_evaluacion_producto_proveedor_58A5537D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "90d7b431", parentId: "8d707e9d", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_BHJrYDWKEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "8", prefix: "", name: "seleccionar_y_notificar_al_proveedor", title: "Seleccionar y Notificar al Proveedor", url: "./../../TRP/capabilitypatterns/seleccionar_y_notificar_al_proveedor_B8B26F11.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "356cf3a2", parentId: "90d7b431", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_BHJrYDWKEd6XRs5f6vMEMg,_flYk4DWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_98E4FE1F.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e36da219", parentId: "90d7b431", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_BHJrYDWKEd6XRs5f6vMEMg,_bFy0ITWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "documento_de_evaluacion_producto_proveedor", title: "Documento de evaluación producto-proveedor", url: "./../../TRP/capabilitypatterns/documento_de_evaluacion_producto_proveedor_58A5537D.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "432e22c0", parentId: "90d7b431", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_BHJrYDWKEd6XRs5f6vMEMg,_bFy0IDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_4E07736D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8f48c4b0", parentId: "8d707e9d", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_GW34kDWKEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "9", prefix: "", name: "negociar_condiciones_finales_y_formalizar_el_acuerdo", title: "Negociar Condiciones Finales y Formalizar Acuerdo", url: "./../../TRP/capabilitypatterns/negociar_condiciones_finales_y_formalizar_el_acuerdo_49B96DA2.html", 
+	predecessors: "8", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e50f6cb7", parentId: "8f48c4b0", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_GW34kDWKEd6XRs5f6vMEMg,_flYk4DWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_98E4FE1F.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "37156418", parentId: "8f48c4b0", relPath: ",_WcXK4TWJEd6XRs5f6vMEMg,_GW34kDWKEd6XRs5f6vMEMg,_bFy0IDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_4E07736D.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e531fb59", parentId: "", relPath: ",_glfhkDWKEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "10", prefix: "", name: "ejecutar_acuerdo", title: "Ejecutar Acuerdo", url: "./../../TRP/capabilitypatterns/ejecutar_acuerdo_ED67538.html", 
+	predecessors: "2", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "393d0bdb", parentId: "e531fb59", relPath: ",_glfhkDWKEd6XRs5f6vMEMg,_UNm0UDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_39453262.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "eda5152b", parentId: "e531fb59", relPath: ",_glfhkDWKEd6XRs5f6vMEMg,_gmr0YDWKEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "proveedor", title: "Proveedor", url: "./../../TRP/capabilitypatterns/proveedor_277E2EC7.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d2c208d", parentId: "e531fb59", relPath: ",_glfhkDWKEd6XRs5f6vMEMg,_UNwlUTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "eb5783cf", parentId: "e531fb59", relPath: ",_glfhkDWKEd6XRs5f6vMEMg,_UNwlUTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ed894a93", parentId: "", relPath: ",_kM5tIDWKEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "11", prefix: "", name: "evaluar_producto_y_o_servicio", title: "Evaluar Producto y/o Servicio", url: "./../../TRP/capabilitypatterns/evaluar_producto_y_o_servicio_D50A29D4.html", 
+	predecessors: "10", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "494b0df3", parentId: "ed894a93", relPath: ",_kM5tIDWKEd6XRs5f6vMEMg,_UNm0UDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_39453262.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e6aef11b", parentId: "ed894a93", relPath: ",_kM5tIDWKEd6XRs5f6vMEMg,_UNwlUTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3c773c4e", parentId: "ed894a93", relPath: ",_kM5tIDWKEd6XRs5f6vMEMg,_UNwlUTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e98457f2", parentId: "", relPath: ",_Ysm88DWOEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "12", prefix: "", name: "aceptar_producto_y_o_servicio", title: "Aceptar Producto y/o Servicio", url: "./../../TRP/capabilitypatterns/aceptar_producto_y_o_servicio_F8D1C4D.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ebe46e7c", parentId: "e98457f2", relPath: ",_Ysm88DWOEd6XRs5f6vMEMg,_YtzPwDWOEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_873DC45A.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "4451562b", parentId: "e98457f2", relPath: ",_Ysm88DWOEd6XRs5f6vMEMg,_UNm0UDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_39453262.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "31d0a076", parentId: "e98457f2", relPath: ",_Ysm88DWOEd6XRs5f6vMEMg,_gmr0YDWKEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "proveedor", title: "Proveedor", url: "./../../TRP/capabilitypatterns/proveedor_277E2EC7.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e6e82dc1", parentId: "e98457f2", relPath: ",_Ysm88DWOEd6XRs5f6vMEMg,_UNwlUTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46d8e2f5", parentId: "e98457f2", relPath: ",_Ysm88DWOEd6XRs5f6vMEMg,_UNwlUTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3e46ec47", parentId: "", relPath: ",_h8o94DWOEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "13", prefix: "", name: "implantar_producto_y_o_servicio", title: "Implantar Producto y/o Servicio", url: "./../../TRP/capabilitypatterns/implantar_producto_y_o_servicio_94C8FCE6.html", 
+	predecessors: "12", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "409f5fba", parentId: "3e46ec47", relPath: ",_h8o94DWOEd6XRs5f6vMEMg,_UNm0UDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_39453262.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3b7a2ed7", parentId: "3e46ec47", relPath: ",_h8o94DWOEd6XRs5f6vMEMg,_h91QsDWOEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "especificacion_de_ambientes", title: "Especificación de ambientes", url: "./../../TRP/capabilitypatterns/especificacion_de_ambientes_300FD71E.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "edc81221", parentId: "3e46ec47", relPath: ",_h8o94DWOEd6XRs5f6vMEMg,_h91QsTWOEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "manual_de_instalacion", title: "Manual de instalación", url: "./../../TRP/capabilitypatterns/manual_de_instalacion_3AADB72E.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e88c7c1", parentId: "3e46ec47", relPath: ",_h8o94DWOEd6XRs5f6vMEMg,_UNwlUTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "44c0c1b8", parentId: "", relPath: ",_kenLYDWOEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "14", prefix: "", name: "evaluar_al_proveedor", title: "Evaluar al Proveedor", url: "./../../TRP/capabilitypatterns/evaluar_al_proveedor_24566DDF.html", 
+	predecessors: "13", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3fda43c4", parentId: "44c0c1b8", relPath: ",_kenLYDWOEd6XRs5f6vMEMg,_UNm0UDWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_39453262.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e0ee1825", parentId: "44c0c1b8", relPath: ",_kenLYDWOEd6XRs5f6vMEMg,_UNwlUTWJEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_84245B64.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e7c8ff77", parentId: "44c0c1b8", relPath: ",_kenLYDWOEd6XRs5f6vMEMg,_kf9PMDWOEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "documento_de_evaluacion_de_proveedor", title: "Documento de evaluación de proveedor", url: "./../../TRP/capabilitypatterns/documento_de_evaluacion_de_proveedor_3C40EF45.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

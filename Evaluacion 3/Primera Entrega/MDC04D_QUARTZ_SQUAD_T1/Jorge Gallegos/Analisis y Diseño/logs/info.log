@@ -1,0 +1,55 @@
+Info: : 1191 mini-second(s) publishing element DeliveryProcess:proceso[new_plug-in\deliveryprocesses\proceso_BD13711B.html]
+Info: DeliveryProcess:proceso: 1193 mini seconds publishing element
+Info: DeliveryProcess:proceso: 319 mini seconds publishing process specific layout data
+Info: Activity:Estimar Esfuerzo: 227 mini seconds publishing element
+Info: Task:estimar_esfuerzo_para_analisis_y_diseo: 201 mini seconds publishing element
+Info: TaskDescriptor:estimar_esfuerzo_para_analisis_y_diseo: 7 mini seconds publishing element
+Info: Role:arquitecto: 434 mini seconds publishing element
+Info: RoleDescriptor:arquitecto: 36 mini seconds publishing element
+Info: Role:gerente_de_proyetos: 85 mini seconds publishing element
+Info: RoleDescriptor:gerente_de_proyetos: 24 mini seconds publishing element
+Info: Role:jefe_de_proyecto: 63 mini seconds publishing element
+Info: RoleDescriptor:jefe_de_proyecto: 9 mini seconds publishing element
+Info: Artifact:ers: 532 mini seconds publishing element
+Info: WorkProductDescriptor:ers: 7 mini seconds publishing element
+Info: Artifact:lista_de_riesgos: 186 mini seconds publishing element
+Info: WorkProductDescriptor:lista_de_riesgos: 7 mini seconds publishing element
+Info: Artifact:planilla_de_tiempoesfuerzo_y_costo: 451 mini seconds publishing element
+Info: WorkProductDescriptor:planilla_de_tiempoesfuerzo_y_costo: 17 mini seconds publishing element
+Info: Task:estimar_esfuerzo_para_construccion: 23 mini seconds publishing element
+Info: TaskDescriptor:estimar_esfuerzo_para_construccion: 7 mini seconds publishing element
+Info: Task:estimar_esfuerzo_para_integracion_y_pruebas: 29 mini seconds publishing element
+Info: TaskDescriptor:estimar_esfuerzo_para_integracion_y_pruebas: 4 mini seconds publishing element
+Info: Task:crear_plantilla_tec: 12 mini seconds publishing element
+Info: TaskDescriptor:crear_plantilla_tec: 5 mini seconds publishing element
+Info: Activity:Analisis: 79 mini seconds publishing element
+Info: Task:realizar_analisis: 9 mini seconds publishing element
+Info: TaskDescriptor:realizar_analisis: 5 mini seconds publishing element
+Info: Role:analista: 35 mini seconds publishing element
+Info: RoleDescriptor:analista: 5 mini seconds publishing element
+Info: RoleDescriptor:arquitecto: 6 mini seconds publishing element
+Info: Artifact:analisis_preliminar: 23 mini seconds publishing element
+Info: WorkProductDescriptor:analisis_preliminar: 3 mini seconds publishing element
+Info: WorkProductDescriptor:ers: 3 mini seconds publishing element
+Info: Artifact:modelo_de_analisis: 218 mini seconds publishing element
+Info: WorkProductDescriptor:modelo_de_analisis: 5 mini seconds publishing element
+Info: Activity:Diseño: 107 mini seconds publishing element
+Info: Task:definir_patrones_y_clases: 15 mini seconds publishing element
+Info: TaskDescriptor:definir_patrones_y_clases: 4 mini seconds publishing element
+Info: RoleDescriptor:arquitecto: 6 mini seconds publishing element
+Info: WorkProductDescriptor:ers: 6 mini seconds publishing element
+Info: Artifact:especificacion_de_ambientes: 182 mini seconds publishing element
+Info: WorkProductDescriptor:especificacion_de_ambientes: 6 mini seconds publishing element
+Info: WorkProductDescriptor:modelo_de_analisis: 6 mini seconds publishing element
+Info: Task:disear_componentes_y_programas: 9 mini seconds publishing element
+Info: TaskDescriptor:disear_componentes_y_programas: 6 mini seconds publishing element
+Info: Task:disear_interfaces_y_comunicaciones: 9 mini seconds publishing element
+Info: TaskDescriptor:disear_interfaces_y_comunicaciones: 4 mini seconds publishing element
+Info: Task:disear_base_de_datos: 9 mini seconds publishing element
+Info: TaskDescriptor:disear_base_de_datos: 4 mini seconds publishing element
+Info: CustomCategory:Configuration free process view: 161 mini seconds publishing element
+Info: CustomCategory:Tasks: 8 mini seconds publishing element
+Info: CustomCategory:Roles: 6 mini seconds publishing element
+Info: CustomCategory:Work Products: 5 mini seconds publishing element
+Info: CustomCategory:Processes: 4 mini seconds publishing element
+Info: : Publishing time: 0 minutes 6 seconds

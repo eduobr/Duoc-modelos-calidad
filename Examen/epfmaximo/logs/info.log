@@ -1,0 +1,616 @@
+Info: : 3283 mini-second(s) publishing element DeliveryProcess:Administrar Requerimientos[new_plug-in\deliveryprocesses\Administrar Requerimientos_1215A865.html]
+Info: DeliveryProcess:Administrar Requerimientos: 3285 mini seconds publishing element
+Info: DeliveryProcess:Administrar Requerimientos: 561 mini seconds publishing process specific layout data
+Info: Activity:Comprender requerimientos: 202 mini seconds publishing element
+Info: Task:Identificar contraparte: 602 mini seconds publishing element
+Info: TaskDescriptor:Identificar contraparte: 22 mini seconds publishing element
+Info: : 2509 mini-second(s) publishing element Role:Equipo de proyecto[new_plug-in\roles\Equipo de proyecto_2A89F93A.html]
+Info: Role:Equipo de proyecto: 2510 mini seconds publishing element
+Info: RoleDescriptor:Equipo de proyecto: 23 mini seconds publishing element
+Info: Role:Gerente de proyectos: 594 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 20 mini seconds publishing element
+Info: Role:Jefe de proyecto: 641 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 19 mini seconds publishing element
+Info: : 10518 mini-second(s) publishing element Artifact:Analisis preliminar[new_plug-in\workproducts\Analisis preliminar_7E7E96F7.html]
+Info: Artifact:Analisis preliminar: 10519 mini seconds publishing element
+Info: WorkProductDescriptor:Analisis preliminar: 16 mini seconds publishing element
+Info: : 11286 mini-second(s) publishing element Artifact:ERS[new_plug-in\workproducts\ERS_D85DD8CE.html]
+Info: Artifact:ERS: 11287 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 14 mini seconds publishing element
+Info: : 1719 mini-second(s) publishing element Artifact:Modelos de caso de uso[new_plug-in\workproducts\Modelos de caso de uso_8D808797.html]
+Info: Artifact:Modelos de caso de uso: 1720 mini seconds publishing element
+Info: WorkProductDescriptor:Modelos de caso de uso: 16 mini seconds publishing element
+Info: : 6247 mini-second(s) publishing element Artifact:Asignacion de roles[new_plug-in\workproducts\Asignacion de roles_2EDA897A.html]
+Info: Artifact:Asignacion de roles: 6249 mini seconds publishing element
+Info: WorkProductDescriptor:Asignacion de roles: 11 mini seconds publishing element
+Info: : 25440 mini-second(s) publishing element Artifact:Plan de proyecto[new_plug-in\workproducts\Plan de proyecto_8AABFFDF.html]
+Info: Artifact:Plan de proyecto: 25441 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 11 mini seconds publishing element
+Info: : 9329 mini-second(s) publishing element Artifact:Plan de revisiones[new_plug-in\workproducts\Plan de revisiones_E2C74F5C.html]
+Info: Artifact:Plan de revisiones: 9330 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de revisiones: 11 mini seconds publishing element
+Info: : 17434 mini-second(s) publishing element Artifact:Planilla de administracion de requerimientos[new_plug-in\workproducts\Planilla de administracion de requerimientos_B4BBAB14.html]
+Info: Artifact:Planilla de administracion de requerimientos: 17434 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de administracion de requerimientos: 11 mini seconds publishing element
+Info: Task:Revisar requerimientos: 21 mini seconds publishing element
+Info: TaskDescriptor:Revisar requerimientos: 11 mini seconds publishing element
+Info: Task:Asegurar entendimiento comun de requerimientos: 27 mini seconds publishing element
+Info: TaskDescriptor:Asegurar entendimiento comun de requerimientos: 6 mini seconds publishing element
+Info: Activity:Comprometer requerimientos: 119 mini seconds publishing element
+Info: Task:Evaluar impacto y factibilidad: 10 mini seconds publishing element
+Info: TaskDescriptor:Evaluar impacto y factibilidad: 8 mini seconds publishing element
+Info: Role:Area comercial: 424 mini seconds publishing element
+Info: RoleDescriptor:Area comercial: 9 mini seconds publishing element
+Info: RoleDescriptor:Equipo de proyecto: 5 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 7 mini seconds publishing element
+Info: WorkProductDescriptor:Analisis preliminar: 8 mini seconds publishing element
+Info: : 7797 mini-second(s) publishing element Artifact:Orden de servicio[new_plug-in\workproducts\Orden de servicio_C6E1FBAC.html]
+Info: Artifact:Orden de servicio: 7797 mini seconds publishing element
+Info: WorkProductDescriptor:Orden de servicio: 10 mini seconds publishing element
+Info: : 13701 mini-second(s) publishing element Artifact:Planilla TEC[new_plug-in\workproducts\Planilla TEC_96981DB9.html]
+Info: Artifact:Planilla TEC: 13707 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla TEC: 18 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de administracion de requerimientos: 6 mini seconds publishing element
+Info: Task:Negociar y registrar compromisos: 10 mini seconds publishing element
+Info: TaskDescriptor:Negociar y registrar compromisos: 8 mini seconds publishing element
+Info: Activity:Seguir requerimientos: 104 mini seconds publishing element
+Info: Task:Revisar consistencia de requerimientos: 9 mini seconds publishing element
+Info: TaskDescriptor:Revisar consistencia de requerimientos: 8 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 7 mini seconds publishing element
+Info: : 14282 mini-second(s) publishing element Artifact:Carta gantt[new_plug-in\workproducts\Carta gantt_5796520A.html]
+Info: Artifact:Carta gantt: 14282 mini seconds publishing element
+Info: WorkProductDescriptor:Carta gantt: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de revisiones: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de administracion de requerimientos: 15 mini seconds publishing element
+Info: Task:Analizar inconsistencia de requerimientos: 13 mini seconds publishing element
+Info: TaskDescriptor:Analizar inconsistencia de requerimientos: 6 mini seconds publishing element
+Info: Task:Identificar cambio de planes: 11 mini seconds publishing element
+Info: TaskDescriptor:Identificar cambio de planes: 5 mini seconds publishing element
+Info: Task:Iniciar acciones correctivas: 10 mini seconds publishing element
+Info: TaskDescriptor:Iniciar acciones correctivas: 5 mini seconds publishing element
+Info: Activity:Administrar cambios: 191 mini seconds publishing element
+Info: Task:Recepcionar cambio de requerimiento: 12 mini seconds publishing element
+Info: TaskDescriptor:Recepcionar cambio de requerimiento: 10 mini seconds publishing element
+Info: Role:Analista: 197 mini seconds publishing element
+Info: RoleDescriptor:Analista: 23 mini seconds publishing element
+Info: RoleDescriptor:Area comercial: 21 mini seconds publishing element
+Info: Role:Cliente: 229 mini seconds publishing element
+Info: RoleDescriptor:Cliente: 28 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 19 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 21 mini seconds publishing element
+Info: : 8076 mini-second(s) publishing element Artifact:Minuta de reunion[new_plug-in\workproducts\Minuta de reunion_53E817C5.html]
+Info: Artifact:Minuta de reunion: 8077 mini seconds publishing element
+Info: WorkProductDescriptor:Minuta de reunion: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Orden de servicio: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de administracion de requerimientos: 26 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla TEC: 10 mini seconds publishing element
+Info: : 14775 mini-second(s) publishing element Artifact:Solicitud de requerimientos[new_plug-in\workproducts\Solicitud de requerimientos_90845FDC.html]
+Info: Artifact:Solicitud de requerimientos: 14776 mini seconds publishing element
+Info: WorkProductDescriptor:Solicitud de requerimientos: 27 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 18 mini seconds publishing element
+Info: Task:Analizar cambios: 11 mini seconds publishing element
+Info: TaskDescriptor:Analizar cambios: 6 mini seconds publishing element
+Info: Task:Estimar cambios: 13 mini seconds publishing element
+Info: TaskDescriptor:Estimar cambios: 7 mini seconds publishing element
+Info: Task:Aprobar cambios por parte del proveedor: 17 mini seconds publishing element
+Info: TaskDescriptor:Aprobar cambios por parte del proveedor: 22 mini seconds publishing element
+Info: Task:Aprobar cambios por parte del cliente: 13 mini seconds publishing element
+Info: TaskDescriptor:Aprobar cambios por parte del cliente: 7 mini seconds publishing element
+Info: Task:Aprobar ordenes de servicio adicionales: 11 mini seconds publishing element
+Info: TaskDescriptor:Aprobar ordenes de servicio adicionales: 8 mini seconds publishing element
+Info: Task:Actualizar linea base: 13 mini seconds publishing element
+Info: TaskDescriptor:Actualizar linea base: 10 mini seconds publishing element
+Info: Task:Actualizar planes y otros artefactos: 13 mini seconds publishing element
+Info: TaskDescriptor:Actualizar planes y otros artefactos: 9 mini seconds publishing element
+Info: DeliveryProcess:Monitoreo y control: 176 mini seconds publishing element
+Info: DeliveryProcess:Monitoreo y control: 247 mini seconds publishing process specific layout data
+Info: Activity:Monitorizar el proyecto frent: 196 mini seconds publishing element
+Info: Task:Monitorizar los parametros de planificacion del proyecto: 12 mini seconds publishing element
+Info: TaskDescriptor:Monitorizar los parametros de planificacion del proyecto: 7 mini seconds publishing element
+Info: RoleDescriptor:Cliente: 25 mini seconds publishing element
+Info: RoleDescriptor:Equipo de proyecto: 18 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 17 mini seconds publishing element
+Info: Role:Grupo de ingenieria de sistemas: 370 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de sistemas: 24 mini seconds publishing element
+Info: Role:Grupo de ingenieria de software: 252 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de software: 16 mini seconds publishing element
+Info: Role:Involucrados: 208 mini seconds publishing element
+Info: RoleDescriptor:Involucrados: 16 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 18 mini seconds publishing element
+Info: Role:Proveedores: 159 mini seconds publishing element
+Info: RoleDescriptor:Proveedores: 19 mini seconds publishing element
+Info: WorkProductDescriptor:Carta gantt: 18 mini seconds publishing element
+Info: : 10299 mini-second(s) publishing element Artifact:Lista de riesgos[new_plug-in\workproducts\Lista de riesgos_9828AB73.html]
+Info: Artifact:Lista de riesgos: 10300 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de riesgos: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Minuta de reunion: 16 mini seconds publishing element
+Info: : 5670 mini-second(s) publishing element Artifact:Plan de aseguramiento de calidad de procesos y productos[new_plug-in\workproducts\Plan de aseguramiento de calidad de procesos y productos_A569FCF9.html]
+Info: Artifact:Plan de aseguramiento de calidad de procesos y productos: 5670 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de aseguramiento de calidad de procesos y productos: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de administracion de requerimientos: 11 mini seconds publishing element
+Info: : 3680 mini-second(s) publishing element Artifact:Planilla de evaluacion de estado[new_plug-in\workproducts\Planilla de evaluacion de estado_BCBC600E.html]
+Info: Artifact:Planilla de evaluacion de estado: 3682 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de evaluacion de estado: 16 mini seconds publishing element
+Info: : 3760 mini-second(s) publishing element Artifact:Planilla de registro de horas[new_plug-in\workproducts\Planilla de registro de horas_E56E85EC.html]
+Info: Artifact:Planilla de registro de horas: 3762 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de registro de horas: 11 mini seconds publishing element
+Info: : 6374 mini-second(s) publishing element Artifact:Planilla de verificacion de procesos[new_plug-in\workproducts\Planilla de verificacion de procesos_41401D9C.html]
+Info: Artifact:Planilla de verificacion de procesos: 6375 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de verificacion de procesos: 12 mini seconds publishing element
+Info: Task:Monitorizar los compromisos: 12 mini seconds publishing element
+Info: TaskDescriptor:Monitorizar los compromisos: 9 mini seconds publishing element
+Info: Task:Monitorizar los riesgos del proyecto: 15 mini seconds publishing element
+Info: TaskDescriptor:Monitorizar los riesgos del proyecto: 8 mini seconds publishing element
+Info: Task:Monitorizar la gestion de los datos: 15 mini seconds publishing element
+Info: TaskDescriptor:Monitorizar la gestion de los datos: 21 mini seconds publishing element
+Info: Task:Monitorizar la involucracion de las parts interesadas: 15 mini seconds publishing element
+Info: TaskDescriptor:Monitorizar la involucracion de las parts interesadas: 9 mini seconds publishing element
+Info: Task:Llevar a cabo las revisiones del progreso: 19 mini seconds publishing element
+Info: TaskDescriptor:Llevar a cabo las revisiones del progreso: 7 mini seconds publishing element
+Info: Task:Llevar a cabo las revisiones de los hitos: 12 mini seconds publishing element
+Info: TaskDescriptor:Llevar a cabo las revisiones de los hitos: 8 mini seconds publishing element
+Info: Activity:Gestionar las acciones correctivas hasta su cierre: 93 mini seconds publishing element
+Info: Task:Analizar las cuestiones: 5 mini seconds publishing element
+Info: TaskDescriptor:Analizar las cuestiones: 2 mini seconds publishing element
+Info: Task:LLevar acabo las acciones correctivas: 11 mini seconds publishing element
+Info: TaskDescriptor:LLevar acabo las acciones correctivas: 7 mini seconds publishing element
+Info: RoleDescriptor:Cliente: 3 mini seconds publishing element
+Info: RoleDescriptor:Equipo de proyecto: 4 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 4 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de sistemas: 4 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de software: 4 mini seconds publishing element
+Info: RoleDescriptor:Involucrados: 4 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 4 mini seconds publishing element
+Info: RoleDescriptor:Proveedores: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Carta gantt: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de riesgos: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Minuta de reunion: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de aseguramiento de calidad de procesos y productos: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de administracion de requerimientos: 17 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de evaluacion de estado: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de registro de horas: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de verificacion de procesos: 3 mini seconds publishing element
+Info: Task:Gestionar las acciones correctivas: 5 mini seconds publishing element
+Info: TaskDescriptor:Gestionar las acciones correctivas: 3 mini seconds publishing element
+Info: DeliveryProcess:Planificacion de proyecto: 411 mini seconds publishing element
+Info: DeliveryProcess:Planificacion de proyecto: 636 mini seconds publishing process specific layout data
+Info: Activity:Establecer las estimaciones: 286 mini seconds publishing element
+Info: Task:Estimar el alcance del proyecto: 23 mini seconds publishing element
+Info: TaskDescriptor:Estimar el alcance del proyecto: 14 mini seconds publishing element
+Info: Role:Administracion de finanzas: 392 mini seconds publishing element
+Info: RoleDescriptor:Administracion de finanzas: 21 mini seconds publishing element
+Info: RoleDescriptor:Area comercial: 21 mini seconds publishing element
+Info: RoleDescriptor:Equipo de proyecto: 57 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 22 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de sistemas: 20 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de software: 21 mini seconds publishing element
+Info: RoleDescriptor:Involucrados: 21 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 23 mini seconds publishing element
+Info: WorkProductDescriptor:Analisis preliminar: 28 mini seconds publishing element
+Info: WorkProductDescriptor:Asignacion de roles: 15 mini seconds publishing element
+Info: WorkProductDescriptor:Carta gantt: 15 mini seconds publishing element
+Info: : 18432 mini-second(s) publishing element Artifact:Especificacion de ambientes[new_plug-in\workproducts\Especificacion de ambientes_4785C932.html]
+Info: Artifact:Especificacion de ambientes: 18432 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de riesgos: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla TEC: 8 mini seconds publishing element
+Info: : 6875 mini-second(s) publishing element Artifact:Plantilla de configuracion del proceso[new_plug-in\workproducts\Plantilla de configuracion del proceso_38C5911B.html]
+Info: Artifact:Plantilla de configuracion del proceso: 6876 mini seconds publishing element
+Info: WorkProductDescriptor:Plantilla de configuracion del proceso: 8 mini seconds publishing element
+Info: : 5600 mini-second(s) publishing element Artifact:Plantilla de estrucutra de proyecto[new_plug-in\workproducts\Plantilla de estrucutra de proyecto_4692B4C3.html]
+Info: Artifact:Plantilla de estrucutra de proyecto: 5602 mini seconds publishing element
+Info: WorkProductDescriptor:Plantilla de estrucutra de proyecto: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Solicitud de requerimientos: 10 mini seconds publishing element
+Info: Task:Establecer las estimaciones de los atributos de los productos de trabajo y de las tareas: 11 mini seconds publishing element
+Info: TaskDescriptor:Establecer las estimaciones de los atributos de los productos de trabajo y de las tareas: 23 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de revisiones: 6 mini seconds publishing element
+Info: Task:Definir las fases del ciclo de vida del proyecto: 12 mini seconds publishing element
+Info: TaskDescriptor:Definir las fases del ciclo de vida del proyecto: 9 mini seconds publishing element
+Info: Task:Estimar el esfuerzo y coste: 21 mini seconds publishing element
+Info: TaskDescriptor:Estimar el esfuerzo y coste: 8 mini seconds publishing element
+Info: Activity:Desarrollar un plan de proyecto: 151 mini seconds publishing element
+Info: Task:Establecer el presupuesto y el calendario: 11 mini seconds publishing element
+Info: TaskDescriptor:Establecer el presupuesto y el calendario: 8 mini seconds publishing element
+Info: RoleDescriptor:Administracion de finanzas: 16 mini seconds publishing element
+Info: RoleDescriptor:Area comercial: 17 mini seconds publishing element
+Info: RoleDescriptor:Equipo de proyecto: 36 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 23 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de sistemas: 17 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de software: 16 mini seconds publishing element
+Info: RoleDescriptor:Involucrados: 17 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 17 mini seconds publishing element
+Info: WorkProductDescriptor:Analisis preliminar: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Asignacion de roles: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Carta gantt: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de riesgos: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de revisiones: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla TEC: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Plantilla de configuracion del proceso: 12 mini seconds publishing element
+Info: WorkProductDescriptor:Plantilla de estrucutra de proyecto: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Solicitud de requerimientos: 11 mini seconds publishing element
+Info: Task:Identificar los riesgos del proyecto: 12 mini seconds publishing element
+Info: TaskDescriptor:Identificar los riesgos del proyecto: 7 mini seconds publishing element
+Info: Task:Planificar la gestion de los datos: 14 mini seconds publishing element
+Info: TaskDescriptor:Planificar la gestion de los datos: 12 mini seconds publishing element
+Info: Task:Planificar los recursos del proyecto: 16 mini seconds publishing element
+Info: TaskDescriptor:Planificar los recursos del proyecto: 7 mini seconds publishing element
+Info: Task:Planificar el conocimiento y las habilidades necesarias: 11 mini seconds publishing element
+Info: TaskDescriptor:Planificar el conocimiento y las habilidades necesarias: 7 mini seconds publishing element
+Info: Task:Planificar la involucracion de las partes interesadas: 11 mini seconds publishing element
+Info: TaskDescriptor:Planificar la involucracion de las partes interesadas: 7 mini seconds publishing element
+Info: Task:Establecer plan de proyecto: 12 mini seconds publishing element
+Info: TaskDescriptor:Establecer plan de proyecto: 7 mini seconds publishing element
+Info: Activity:Obtener el compromiso con el plan: 111 mini seconds publishing element
+Info: Task:Revisar los planes que afectan el proyecto: 11 mini seconds publishing element
+Info: TaskDescriptor:Revisar los planes que afectan el proyecto: 7 mini seconds publishing element
+Info: RoleDescriptor:Administracion de finanzas: 8 mini seconds publishing element
+Info: RoleDescriptor:Area comercial: 8 mini seconds publishing element
+Info: RoleDescriptor:Equipo de proyecto: 17 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 13 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de sistemas: 8 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de software: 8 mini seconds publishing element
+Info: RoleDescriptor:Involucrados: 7 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Analisis preliminar: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Asignacion de roles: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Carta gantt: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de riesgos: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de revisiones: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla TEC: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Plantilla de configuracion del proceso: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Plantilla de estrucutra de proyecto: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Solicitud de requerimientos: 5 mini seconds publishing element
+Info: Task:Conciliar los niveles de trabajo y recursos: 11 mini seconds publishing element
+Info: TaskDescriptor:Conciliar los niveles de trabajo y recursos: 7 mini seconds publishing element
+Info: Task:Obtener el compromiso con el plan: 11 mini seconds publishing element
+Info: TaskDescriptor:Obtener el compromiso con el plan: 7 mini seconds publishing element
+Info: DeliveryProcess:Administracion de acuerdos con proveedores: 140 mini seconds publishing element
+Info: DeliveryProcess:Administracion de acuerdos con proveedores: 122 mini seconds publishing process specific layout data
+Info: Activity:Establecer acuerdo con proveedores: 142 mini seconds publishing element
+Info: Task:Determinar el tipo de adquisicion: 11 mini seconds publishing element
+Info: TaskDescriptor:Determinar el tipo de adquisicion: 8 mini seconds publishing element
+Info: RoleDescriptor:Administracion de finanzas: 10 mini seconds publishing element
+Info: RoleDescriptor:Area comercial: 10 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 10 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 10 mini seconds publishing element
+Info: RoleDescriptor:Proveedores: 10 mini seconds publishing element
+Info: : 2751 mini-second(s) publishing element Artifact:Documento de evaluacion de producto-proveedor[new_plug-in\workproducts\Documento de evaluacion de producto-proveedor_82D92B7D.html]
+Info: Artifact:Documento de evaluacion de producto-proveedor: 2751 mini seconds publishing element
+Info: WorkProductDescriptor:Documento de evaluacion de producto-proveedor: 15 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 14 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 14 mini seconds publishing element
+Info: : 2680 mini-second(s) publishing element Artifact:Lista de propuesta[new_plug-in\workproducts\Lista de propuesta_BB585286.html]
+Info: Artifact:Lista de propuesta: 2680 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de propuesta: 16 mini seconds publishing element
+Info: : 2601 mini-second(s) publishing element Artifact:Lista de proveedores[new_plug-in\workproducts\Lista de proveedores_7C130FE6.html]
+Info: Artifact:Lista de proveedores: 2603 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de proveedores: 16 mini seconds publishing element
+Info: : 12371 mini-second(s) publishing element Artifact:Manual de instalacion[new_plug-in\workproducts\Manual de instalacion_443D9E22.html]
+Info: Artifact:Manual de instalacion: 12371 mini seconds publishing element
+Info: WorkProductDescriptor:Manual de instalacion: 37 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 39 mini seconds publishing element
+Info: : 2126 mini-second(s) publishing element Artifact:Solicitud de cotizacion[new_plug-in\workproducts\Solicitud de cotizacion_3E3345BA.html]
+Info: Artifact:Solicitud de cotizacion: 2127 mini seconds publishing element
+Info: WorkProductDescriptor:Solicitud de cotizacion: 16 mini seconds publishing element
+Info: Task:Seleccionar los proveedores: 15 mini seconds publishing element
+Info: TaskDescriptor:Seleccionar los proveedores: 10 mini seconds publishing element
+Info: Task:Establecer acuerdo con proveedores: 14 mini seconds publishing element
+Info: TaskDescriptor:Establecer acuerdo con proveedores: 9 mini seconds publishing element
+Info: Activity:Satisfacer los acuerdos con los proveedores: 127 mini seconds publishing element
+Info: Task:Ejecutar el acuerdo con proveedores: 14 mini seconds publishing element
+Info: TaskDescriptor:Ejecutar el acuerdo con proveedores: 10 mini seconds publishing element
+Info: RoleDescriptor:Administracion de finanzas: 32 mini seconds publishing element
+Info: RoleDescriptor:Area comercial: 10 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 12 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 11 mini seconds publishing element
+Info: RoleDescriptor:Proveedores: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Documento de evaluacion de producto-proveedor: 15 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de propuesta: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de proveedores: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Manual de instalacion: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Solicitud de cotizacion: 10 mini seconds publishing element
+Info: Task:Aceptar el producto adquirido: 13 mini seconds publishing element
+Info: TaskDescriptor:Aceptar el producto adquirido: 10 mini seconds publishing element
+Info: Task:Asegurar la transicion de los productos: 10 mini seconds publishing element
+Info: TaskDescriptor:Asegurar la transicion de los productos: 2 mini seconds publishing element
+Info: DeliveryProcess:Medicion y analisis: 167 mini seconds publishing element
+Info: DeliveryProcess:Medicion y analisis: 373 mini seconds publishing process specific layout data
+Info: Activity:Definir objet: 361 mini seconds publishing element
+Info: Task:Establecer objetivos de la medicion: 24 mini seconds publishing element
+Info: TaskDescriptor:Establecer objetivos de la medicion: 10 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 25 mini seconds publishing element
+Info: Role:Grupo de ingenieria de procesos: 323 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de procesos: 20 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 18 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 22 mini seconds publishing element
+Info: Task:Especificar metricas: 16 mini seconds publishing element
+Info: TaskDescriptor:Especificar metricas: 6 mini seconds publishing element
+Info: Task:Especificar procedimientos de recoleccion y almacenamiento de datos: 14 mini seconds publishing element
+Info: TaskDescriptor:Especificar procedimientos de recoleccion y almacenamiento de datos: 7 mini seconds publishing element
+Info: Task:Especificar procedimiento de analisis: 15 mini seconds publishing element
+Info: TaskDescriptor:Especificar procedimiento de analisis: 6 mini seconds publishing element
+Info: Task:Informar metricas definidas a involucrados: 18 mini seconds publishing element
+Info: TaskDescriptor:Informar metricas definidas a involucrados: 8 mini seconds publishing element
+Info: Activity:Analizar resultados de la medicion: 347 mini seconds publishing element
+Info: Task:Recolectar datos de las mediciones: 35 mini seconds publishing element
+Info: TaskDescriptor:Recolectar datos de las mediciones: 16 mini seconds publishing element
+Info: RoleDescriptor:Analista: 41 mini seconds publishing element
+Info: RoleDescriptor:Equipo de proyecto: 40 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 40 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de procesos: 34 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 34 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de administracion de requerimientos: 57 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de evaluacion de estado: 42 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de registro de horas: 34 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de verificacion de procesos: 43 mini seconds publishing element
+Info: Task:Analizar los datos recolectados: 29 mini seconds publishing element
+Info: TaskDescriptor:Analizar los datos recolectados: 13 mini seconds publishing element
+Info: Task:Almacenar datos recolectados: 40 mini seconds publishing element
+Info: TaskDescriptor:Almacenar datos recolectados: 20 mini seconds publishing element
+Info: Task:Comunicar los resultados: 32 mini seconds publishing element
+Info: TaskDescriptor:Comunicar los resultados: 23 mini seconds publishing element
+Info: DeliveryProcess:Aseguramiento de calidad de procesos y productos: 372 mini seconds publishing element
+Info: DeliveryProcess:Aseguramiento de calidad de procesos y productos: 240 mini seconds publishing process specific layout data
+Info: Task:Desarrollar plan de aseguramiento de calidad: 17 mini seconds publishing element
+Info: TaskDescriptor:Desarrollar plan de aseguramiento de calidad: 31 mini seconds publishing element
+Info: RoleDescriptor:Analista: 20 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 16 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de aseguramiento de calidad de procesos y productos: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 14 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de verificacion de procesos: 27 mini seconds publishing element
+Info: WorkProductDescriptor:Plantilla de configuracion del proceso: 12 mini seconds publishing element
+Info: Task:Revisar procesos y productos: 16 mini seconds publishing element
+Info: TaskDescriptor:Revisar procesos y productos: 8 mini seconds publishing element
+Info: Task:Seguir no cumplimientos previos: 16 mini seconds publishing element
+Info: TaskDescriptor:Seguir no cumplimientos previos: 9 mini seconds publishing element
+Info: Task:Monitorear el plan de aseguramiento de calidad: 16 mini seconds publishing element
+Info: TaskDescriptor:Monitorear el plan de aseguramiento de calidad: 8 mini seconds publishing element
+Info: Task:Comunicar resultados de no cumplimiento: 19 mini seconds publishing element
+Info: TaskDescriptor:Comunicar resultados de no cumplimiento: 7 mini seconds publishing element
+Info: DeliveryProcess:Administracion de configuraciones: 256 mini seconds publishing element
+Info: DeliveryProcess:Administracion de configuraciones: 653 mini seconds publishing process specific layout data
+Info: Activity:Generar linea base inicial: 294 mini seconds publishing element
+Info: Task:Generar plan de administracion de configuraciones: 12 mini seconds publishing element
+Info: TaskDescriptor:Generar plan de administracion de configuraciones: 4 mini seconds publishing element
+Info: Role:Administrador de configuraciones: 311 mini seconds publishing element
+Info: RoleDescriptor:Administrador de configuraciones: 10 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 7 mini seconds publishing element
+Info: : 16127 mini-second(s) publishing element Artifact:Plan de administracion de configuraciones[new_plug-in\workproducts\Plan de administracion de configuraciones_5CB41A41.html]
+Info: Artifact:Plan de administracion de configuraciones: 16129 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de administracion de configuraciones: 6 mini seconds publishing element
+Info: Task:Obtener linea base inicial: 9 mini seconds publishing element
+Info: TaskDescriptor:Obtener linea base inicial: 5 mini seconds publishing element
+Info: Task:Categorizar linea base: 6 mini seconds publishing element
+Info: TaskDescriptor:Categorizar linea base: 3 mini seconds publishing element
+Info: Task:Ingresar Artefactos a la base de datos de administracion de configuraciones: 9 mini seconds publishing element
+Info: TaskDescriptor:Ingresar Artefactos a la base de datos de administracion de configuraciones: 4 mini seconds publishing element
+Info: Activity:Administrar items de configuracion: 133 mini seconds publishing element
+Info: Task:Distribuir items de configuracion: 7 mini seconds publishing element
+Info: TaskDescriptor:Distribuir items de configuracion: 3 mini seconds publishing element
+Info: RoleDescriptor:Administrador de configuraciones: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de administracion de configuraciones: 15 mini seconds publishing element
+Info: Task:Recibir items de configuracion e ingresarlos a la base de datos de administracion de configuraciones: 10 mini seconds publishing element
+Info: TaskDescriptor:Recibir items de configuracion e ingresarlos a la base de datos de administracion de configuraciones: 3 mini seconds publishing element
+Info: Task:Distribuir items de configuracion a integradores: 7 mini seconds publishing element
+Info: TaskDescriptor:Distribuir items de configuracion a integradores: 3 mini seconds publishing element
+Info: Task:Recibir items de configuracion de integradores e ingresarlos a la base de datos de administracion de configuraciones: 8 mini seconds publishing element
+Info: TaskDescriptor:Recibir items de configuracion de integradores e ingresarlos a la base de datos de administracion de configuraciones: 3 mini seconds publishing element
+Info: Task:Distribuir items de configuracion para pruebas: 7 mini seconds publishing element
+Info: TaskDescriptor:Distribuir items de configuracion para pruebas: 3 mini seconds publishing element
+Info: Task:Recibir items de configuracion de testeadores e ingresarlos a la base de datos de administracion de configuraciones: 7 mini seconds publishing element
+Info: TaskDescriptor:Recibir items de configuracion de testeadores e ingresarlos a la base de datos de administracion de configuraciones: 3 mini seconds publishing element
+Info: Activity:Actualizar linea base: 91 mini seconds publishing element
+Info: Task:Autorizar nueva linea base: 7 mini seconds publishing element
+Info: TaskDescriptor:Autorizar nueva linea base: 3 mini seconds publishing element
+Info: RoleDescriptor:Administrador de configuraciones: 6 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de administracion de configuraciones: 5 mini seconds publishing element
+Info: Task:Publicar nueva linea base: 7 mini seconds publishing element
+Info: TaskDescriptor:Publicar nueva linea base: 2 mini seconds publishing element
+Info: Task:Notificar a los afectados sobre la linea base: 6 mini seconds publishing element
+Info: TaskDescriptor:Notificar a los afectados sobre la linea base: 2 mini seconds publishing element
+Info: Activity:Seguir y controlar cambios: 116 mini seconds publishing element
+Info: Task:Analizar y documentar solicitudes de cambio: 19 mini seconds publishing element
+Info: TaskDescriptor:Analizar y documentar solicitudes de cambio: 9 mini seconds publishing element
+Info: RoleDescriptor:Administrador de configuraciones: 22 mini seconds publishing element
+Info: RoleDescriptor:Cliente: 19 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 20 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 20 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de administracion de configuraciones: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Solicitud de requerimientos: 11 mini seconds publishing element
+Info: WorkProductDescriptor:Minuta de reunion: 21 mini seconds publishing element
+Info: Task:Revisar y seguir el estado de las solicitudes de cambio: 19 mini seconds publishing element
+Info: TaskDescriptor:Revisar y seguir el estado de las solicitudes de cambio: 9 mini seconds publishing element
+Info: Task:Controlar items de configuracion: 19 mini seconds publishing element
+Info: TaskDescriptor:Controlar items de configuracion: 26 mini seconds publishing element
+Info: Task:Revisar y documentar cambios de los ICs: 27 mini seconds publishing element
+Info: TaskDescriptor:Revisar y documentar cambios de los ICs: 15 mini seconds publishing element
+Info: DeliveryProcess:Programacion: 283 mini seconds publishing element
+Info: DeliveryProcess:Programacion: 506 mini seconds publishing process specific layout data
+Info: Activity:Implementar interfaces y comunicaciones: 197 mini seconds publishing element
+Info: Task:Desarrollar interfaces y comunicaciones: 14 mini seconds publishing element
+Info: TaskDescriptor:Desarrollar interfaces y comunicaciones: 5 mini seconds publishing element
+Info: Role:Programador: 263 mini seconds publishing element
+Info: RoleDescriptor:Programador: 6 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 6 mini seconds publishing element
+Info: : 11004 mini-second(s) publishing element Artifact:Modelo de diseño[new_plug-in\workproducts\Modelo de diseño_E87AF68A.html]
+Info: Artifact:Modelo de diseño: 11005 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de diseño: 5 mini seconds publishing element
+Info: Task:Realizar pruebas unitarias de interfaces y comunicaciones: 9 mini seconds publishing element
+Info: TaskDescriptor:Realizar pruebas unitarias de interfaces y comunicaciones: 4 mini seconds publishing element
+Info: Activity:Implementar base de datos: 105 mini seconds publishing element
+Info: Task:Desarrollar base de datos: 10 mini seconds publishing element
+Info: TaskDescriptor:Desarrollar base de datos: 5 mini seconds publishing element
+Info: RoleDescriptor:Programador: 6 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de diseño: 5 mini seconds publishing element
+Info: Task:Realizar pruebas unitarias de la base de datos: 10 mini seconds publishing element
+Info: TaskDescriptor:Realizar pruebas unitarias de la base de datos: 4 mini seconds publishing element
+Info: Activity:Implementar componentes y programas: 106 mini seconds publishing element
+Info: Task:Desarrollar componentes y programas: 11 mini seconds publishing element
+Info: TaskDescriptor:Desarrollar componentes y programas: 4 mini seconds publishing element
+Info: RoleDescriptor:Programador: 4 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de diseño: 5 mini seconds publishing element
+Info: Task:Realizar pruebas unitarias de componentes y programas: 8 mini seconds publishing element
+Info: TaskDescriptor:Realizar pruebas unitarias de componentes y programas: 3 mini seconds publishing element
+Info: DeliveryProcess:Analisis y diseño: 126 mini seconds publishing element
+Info: DeliveryProcess:Analisis y diseño: 241 mini seconds publishing process specific layout data
+Info: Activity:Estimar esfuerzo: 136 mini seconds publishing element
+Info: Task:Estimar complejidad: 10 mini seconds publishing element
+Info: TaskDescriptor:Estimar complejidad: 5 mini seconds publishing element
+Info: Role:Arquitecto: 208 mini seconds publishing element
+Info: RoleDescriptor:Arquitecto: 11 mini seconds publishing element
+Info: RoleDescriptor:Gerente de proyectos: 10 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 10 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Lista de riesgos: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla TEC: 14 mini seconds publishing element
+Info: Task:Estimar esfuerzo para integracion y pruebas: 9 mini seconds publishing element
+Info: TaskDescriptor:Estimar esfuerzo para integracion y pruebas: 5 mini seconds publishing element
+Info: Task:Estimar esfuerzo para analisis y diseño: 10 mini seconds publishing element
+Info: TaskDescriptor:Estimar esfuerzo para analisis y diseño: 19 mini seconds publishing element
+Info: Task:Estimar esfuerzo para construccion: 10 mini seconds publishing element
+Info: TaskDescriptor:Estimar esfuerzo para construccion: 5 mini seconds publishing element
+Info: Task:Crear planilla TEC: 9 mini seconds publishing element
+Info: TaskDescriptor:Crear planilla TEC: 5 mini seconds publishing element
+Info: Activity:Analisis: 82 mini seconds publishing element
+Info: Task:Realizar analisis: 11 mini seconds publishing element
+Info: TaskDescriptor:Realizar analisis: 5 mini seconds publishing element
+Info: RoleDescriptor:Analista: 6 mini seconds publishing element
+Info: RoleDescriptor:Arquitecto: 5 mini seconds publishing element
+Info: RoleDescriptor:Grupo de ingenieria de software: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Analisis preliminar: 4 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 4 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 3 mini seconds publishing element
+Info: : 2304 mini-second(s) publishing element Artifact:Modelo de analisis[new_plug-in\workproducts\Modelo de analisis_304D8028.html]
+Info: Artifact:Modelo de analisis: 2305 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de analisis: 5 mini seconds publishing element
+Info: Task:Realizar analisis hacer-reusar-comprar: 11 mini seconds publishing element
+Info: TaskDescriptor:Realizar analisis hacer-reusar-comprar: 4 mini seconds publishing element
+Info: Activity:Diseño: 99 mini seconds publishing element
+Info: Task:Definir patrones y clases: 10 mini seconds publishing element
+Info: TaskDescriptor:Definir patrones y clases: 3 mini seconds publishing element
+Info: RoleDescriptor:Arquitecto: 6 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de analisis: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de diseño: 10 mini seconds publishing element
+Info: Task:Diseñar componentes y programas: 9 mini seconds publishing element
+Info: TaskDescriptor:Diseñar componentes y programas: 4 mini seconds publishing element
+Info: Task:Diseñar interfaces y comunicaciones: 8 mini seconds publishing element
+Info: TaskDescriptor:Diseñar interfaces y comunicaciones: 4 mini seconds publishing element
+Info: Task:Diseñar base de datos: 8 mini seconds publishing element
+Info: TaskDescriptor:Diseñar base de datos: 3 mini seconds publishing element
+Info: DeliveryProcess:Instalacion: 238 mini seconds publishing element
+Info: DeliveryProcess:Instalacion: 253 mini seconds publishing process specific layout data
+Info: Task:Planificar instalacion e integracion: 12 mini seconds publishing element
+Info: TaskDescriptor:Planificar instalacion e integracion: 6 mini seconds publishing element
+Info: : 2342 mini-second(s) publishing element Role:Administrador de ambientes[new_plug-in\roles\Administrador de ambientes_E80F54E6.html]
+Info: Role:Administrador de ambientes: 2342 mini seconds publishing element
+Info: RoleDescriptor:Administrador de ambientes: 42 mini seconds publishing element
+Info: RoleDescriptor:Arquitecto: 42 mini seconds publishing element
+Info: RoleDescriptor:Cliente: 40 mini seconds publishing element
+Info: Role:Integrador de sistemas: 331 mini seconds publishing element
+Info: RoleDescriptor:Integrador de sistemas: 37 mini seconds publishing element
+Info: Role:Testeador: 355 mini seconds publishing element
+Info: RoleDescriptor:Testeador: 44 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 25 mini seconds publishing element
+Info: WorkProductDescriptor:Manual de instalacion: 24 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de diseño: 21 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de administracion de configuraciones: 20 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 70 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de administracion de requerimientos: 20 mini seconds publishing element
+Info: : 10045 mini-second(s) publishing element Artifact:Planilla de casos de prueba[new_plug-in\workproducts\Planilla de casos de prueba_8404153C.html]
+Info: Artifact:Planilla de casos de prueba: 10045 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de casos de prueba: 21 mini seconds publishing element
+Info: WorkProductDescriptor:Carta gantt: 32 mini seconds publishing element
+Info: : 5961 mini-second(s) publishing element Artifact:Sumario de la evaluacion de pruebas[new_plug-in\workproducts\Sumario de la evaluacion de pruebas_215BAAA3.html]
+Info: Artifact:Sumario de la evaluacion de pruebas: 5961 mini seconds publishing element
+Info: WorkProductDescriptor:Sumario de la evaluacion de pruebas: 33 mini seconds publishing element
+Info: Task:Identificar piezas de software para instalacion: 20 mini seconds publishing element
+Info: TaskDescriptor:Identificar piezas de software para instalacion: 12 mini seconds publishing element
+Info: Task:Integrar piezas de software: 20 mini seconds publishing element
+Info: TaskDescriptor:Integrar piezas de software: 17 mini seconds publishing element
+Info: Task:Realizar pruebas de integracion: 26 mini seconds publishing element
+Info: TaskDescriptor:Realizar pruebas de integracion: 14 mini seconds publishing element
+Info: Task:Instalar en certificacion: 19 mini seconds publishing element
+Info: TaskDescriptor:Instalar en certificacion: 27 mini seconds publishing element
+Info: Task:Realizar pruebas de instalacion en certificacion: 22 mini seconds publishing element
+Info: TaskDescriptor:Realizar pruebas de instalacion en certificacion: 12 mini seconds publishing element
+Info: Task:Realizar paso a produccion: 20 mini seconds publishing element
+Info: TaskDescriptor:Realizar paso a produccion: 14 mini seconds publishing element
+Info: Task:Instalar en produccion: 20 mini seconds publishing element
+Info: TaskDescriptor:Instalar en produccion: 11 mini seconds publishing element
+Info: Activity:Preparar ambiente: 146 mini seconds publishing element
+Info: Task:Chequear ambiente actual: 15 mini seconds publishing element
+Info: TaskDescriptor:Chequear ambiente actual: 7 mini seconds publishing element
+Info: RoleDescriptor:Administrador de ambientes: 7 mini seconds publishing element
+Info: RoleDescriptor:Arquitecto: 7 mini seconds publishing element
+Info: RoleDescriptor:Cliente: 7 mini seconds publishing element
+Info: : 1825 mini-second(s) publishing element Artifact:CheckList de ambientes[new_plug-in\workproducts\CheckList de ambientes_F996C042.html]
+Info: Artifact:CheckList de ambientes: 1826 mini seconds publishing element
+Info: WorkProductDescriptor:CheckList de ambientes: 9 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de diseño: 6 mini seconds publishing element
+Info: Task:Instalar y configurar ambiente: 13 mini seconds publishing element
+Info: TaskDescriptor:Instalar y configurar ambiente: 18 mini seconds publishing element
+Info: Activity:Generar documentacion: 147 mini seconds publishing element
+Info: Task:Elaborar manual de instalacion: 11 mini seconds publishing element
+Info: TaskDescriptor:Elaborar manual de instalacion: 4 mini seconds publishing element
+Info: Role:Documentador: 173 mini seconds publishing element
+Info: RoleDescriptor:Documentador: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Manual de instalacion: 6 mini seconds publishing element
+Info: Task:Elaborar documentos adicionales: 13 mini seconds publishing element
+Info: TaskDescriptor:Elaborar documentos adicionales: 4 mini seconds publishing element
+Info: DeliveryProcess:Pruebas: 224 mini seconds publishing element
+Info: DeliveryProcess:Pruebas: 295 mini seconds publishing process specific layout data
+Info: Activity:Desarrollar plan de pruebas: 99 mini seconds publishing element
+Info: Task:Generar el plan de pruebas: 12 mini seconds publishing element
+Info: TaskDescriptor:Generar el plan de pruebas: 6 mini seconds publishing element
+Info: RoleDescriptor:Arquitecto: 7 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 7 mini seconds publishing element
+Info: RoleDescriptor:Testeador: 8 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Especificacion de ambientes: 5 mini seconds publishing element
+Info: WorkProductDescriptor:Modelo de analisis: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de proyecto: 12 mini seconds publishing element
+Info: : 2980 mini-second(s) publishing element Artifact:Plan de pruebas[new_plug-in\workproducts\Plan de pruebas_C93A3968.html]
+Info: Artifact:Plan de pruebas: 2981 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de pruebas: 8 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de casos de prueba: 8 mini seconds publishing element
+Info: Task:Crear casos de pruebas: 9 mini seconds publishing element
+Info: TaskDescriptor:Crear casos de pruebas: 6 mini seconds publishing element
+Info: Activity:Ejecut: 131 mini seconds publishing element
+Info: Task:Validar: 9 mini seconds publishing element
+Info: TaskDescriptor:Validar: 4 mini seconds publishing element
+Info: RoleDescriptor:Equipo de proyecto: 8 mini seconds publishing element
+Info: RoleDescriptor:Jefe de proyecto: 9 mini seconds publishing element
+Info: RoleDescriptor:Testeador: 8 mini seconds publishing element
+Info: WorkProductDescriptor:ERS: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de pruebas: 6 mini seconds publishing element
+Info: WorkProductDescriptor:Plan de revisiones: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Planilla de casos de prueba: 6 mini seconds publishing element
+Info: Task:Verificar: 8 mini seconds publishing element
+Info: TaskDescriptor:Verificar: 4 mini seconds publishing element
+Info: Task:Aplicar el plan de pruebas: 9 mini seconds publishing element
+Info: TaskDescriptor:Aplicar el plan de pruebas: 4 mini seconds publishing element
+Info: Task:Preparar el plan de revisiones: 9 mini seconds publishing element
+Info: TaskDescriptor:Preparar el plan de revisiones: 4 mini seconds publishing element
+Info: Task:Ejecutar y analizar revisiones: 8 mini seconds publishing element
+Info: TaskDescriptor:Ejecutar y analizar revisiones: 4 mini seconds publishing element
+Info: : 1885 mini-second(s) publishing element Task:Especificar procedimientos de recoleccion y almacenamiento de datos[new_plug-in\tasks\Performing_Roles_Especificar procedimientos de recoleccion y almacenamiento de da_C4589C3A.html]
+Info: CustomCategory:Configuration free process view: 367 mini seconds publishing element
+Info: CustomCategory:Tasks: 42 mini seconds publishing element
+Info: CustomCategory:Roles: 11 mini seconds publishing element
+Info: CustomCategory:Work Products: 26 mini seconds publishing element
+Info: CustomCategory:Processes: 13 mini seconds publishing element
+Info: : Publishing time: 5 minutes 18 seconds

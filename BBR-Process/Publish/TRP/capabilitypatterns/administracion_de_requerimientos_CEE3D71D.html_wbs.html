@@ -1,0 +1,1008 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Administraci&oacute;n de Requerimientos</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="administracion_de_requerimientos">
+<meta name="uma.presentationName" content="Administraci&oacute;n de Requerimientos">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_30-GQSuBEd6RuqoM0fDtjg&path=_30-GQSuBEd6RuqoM0fDtjg';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_30-GQSuBEd6RuqoM0fDtjg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Administraci&oacute;n de Requerimientos</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../TRP/capabilitypatterns/administracion_de_requerimientos_CEE3D71D.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Work Breakdown Structure</span></td><td width="1"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../TRP/capabilitypatterns/administracion_de_requerimientos_CEE3D71D.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../TRP/capabilitypatterns/administracion_de_requerimientos_CEE3D71D.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="5"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Workflow</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="Activity" id="diagram_Activity" src="./../../TRP/capabilitypatterns/resources/administracion_de_requerimientos_CEE3D71D_Activity.jpeg" alt="Activity diagram: Administraci&oacute;n de Requerimientos" title="Activity diagram: Administraci&oacute;n de Requerimientos" usemap="#Activity_administracion_de_requerimientos"><map name="Activity_administracion_de_requerimientos">
+<area href="./../../TRP/capabilitypatterns/comprender_requerimientos_B573A2A2.html" relpath=",_PDMKQSuLEd6RuqoM0fDtjg" alt="Comprender Requerimientos" title="Comprender Requerimientos" coords="144, 96, 287, 149" shape="rect" guid="_PDMKQSuLEd6RuqoM0fDtjg"></area>
+<area href="./../../TRP/capabilitypatterns/comprometer_requerimientos_44A54530.html" relpath=",_223xoTTJEd6iDo8YkOrw7A" alt="Comprometer Requerimientos" title="Comprometer Requerimientos" coords="139, 179, 288, 232" shape="rect" guid="_223xoTTJEd6iDo8YkOrw7A"></area>
+<area href="./../../TRP/capabilitypatterns/seguir_requerimientos_F30179F2.html" relpath=",_v5NmgTTKEd6iDo8YkOrw7A" alt="Seguir Requerimientos" title="Seguir Requerimientos" coords="24, 312, 138, 365" shape="rect" guid="_v5NmgTTKEd6iDo8YkOrw7A"></area>
+<area href="./../../TRP/capabilitypatterns/administrar_cambios_7A85F664.html" relpath=",_QY92YTTLEd6iDo8YkOrw7A" alt="Administrar Cambios" title="Administrar Cambios" coords="312, 384, 416, 437" shape="rect" guid="_QY92YTTLEd6iDo8YkOrw7A"></area>
+</map>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Work Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Work Breakdown", summary: "Work Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["steps", "Steps"],
+["id", "Index"],
+["predecessors", "Predecessors"],
+["model_info", "Model Info"],
+["type", "Type"],
+["is_planned", "Planned"],
+["is_repeatable", "Repeatable"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_ongoing", "Ongoing"],
+["is_event_driven", "Event Driven"],
+["is_optional", "Optional"],
+["teams", "Team"]],
+rows: [
+		
+{id: "446d0d56", parentId: "", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "1", prefix: "", name: "comprender_requerimientos", title: "Comprender Requerimientos", url: "./../../TRP/capabilitypatterns/comprender_requerimientos_B573A2A2.html", 
+	predecessors: "", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "93760a4c", parentId: "446d0d56", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_FEC7kDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "2", prefix: "", name: "identificar_contraparte", title: "Identificar Contraparte", url: "./../../TRP/capabilitypatterns/identificar_contraparte_5C215220.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d64f541", parentId: "93760a4c", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_FEC7kDWGEd6XRs5f6vMEMg,_FF-1QDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_B80299CB.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3ab76c72", parentId: "93760a4c", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_FEC7kDWGEd6XRs5f6vMEMg,_FF-1QTWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_C2A079DB.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "468b31cf", parentId: "93760a4c", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_FEC7kDWGEd6XRs5f6vMEMg,_FGlSMDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "asignacion_de_roles", title: "Asignación de roles", url: "./../../TRP/capabilitypatterns/asignacion_de_roles_3C8C3D3.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "40b56605", parentId: "93760a4c", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_FEC7kDWGEd6XRs5f6vMEMg,_FGucIDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_F0D7E0BE.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "36d2f3b4", parentId: "446d0d56", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "3", prefix: "", name: "revisar_requerimientos", title: "Revisar Requerimientos", url: "./../../TRP/capabilitypatterns/revisar_requerimientos_17DD228A.html", 
+	predecessors: "2", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ea0ac961", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_FF-1QDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_B80299CB.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e7ab39fb", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_FF-1QTWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_C2A079DB.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e7b49dc", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_IQV4cDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "analisis_preliminar", title: "Análisis preliminar", url: "./../../TRP/capabilitypatterns/analisis_preliminar_2A52B6DB.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e66dae5", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_IQV4cTWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "especificacion_de_requerimientos_de_software", title: "Especificación de Requerimientos de Software (ERS)", url: "./../../TRP/capabilitypatterns/especificacion_de_requerimientos_de_software_34F096EB.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46b4e9cc", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_IQV4cjWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "modelo_de_casos_de_uso", title: "Modelo de casos de uso", url: "./../../TRP/capabilitypatterns/modelo_de_casos_de_uso_2389AB01.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3f8dbbd5", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_IQV4cDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "analisis_preliminar", title: "Análisis preliminar", url: "./../../TRP/capabilitypatterns/analisis_preliminar_2A52B6DB.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "44391a23", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_IQV4cTWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "especificacion_de_requerimientos_de_software", title: "Especificación de Requerimientos de Software (ERS)", url: "./../../TRP/capabilitypatterns/especificacion_de_requerimientos_de_software_34F096EB.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "441f29b9", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_IQV4cjWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "modelo_de_casos_de_uso", title: "Modelo de casos de uso", url: "./../../TRP/capabilitypatterns/modelo_de_casos_de_uso_2389AB01.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "31fe879f", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_IQV4czWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_revisiones", title: "Plan de revisiones", url: "./../../TRP/capabilitypatterns/plan_de_revisiones_2E278B11.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3fc3163e", parentId: "36d2f3b4", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_IOHD0DWGEd6XRs5f6vMEMg,_IQV4dDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_EEE498FA.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "934bee4a", parentId: "446d0d56", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_KsNd8DWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "4", prefix: "", name: "asegurar_entendimiento_comun_de_requerimientos", title: "Asegurar Entendimiento Común de Requerimientos", url: "./../../TRP/capabilitypatterns/asegurar_entendimiento_comun_de_requerimientos_32116D3E.html", 
+	predecessors: "3", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "36eaa060", parentId: "934bee4a", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_KsNd8DWGEd6XRs5f6vMEMg,_KucSkDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "equipo_de_proyecto", title: "Equipo de proyecto", url: "./../../TRP/capabilitypatterns/equipo_de_proyecto_CC497C67.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "f024e934", parentId: "934bee4a", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_KsNd8DWGEd6XRs5f6vMEMg,_FF-1QTWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_C2A079DB.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e004b0c1", parentId: "934bee4a", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_KsNd8DWGEd6XRs5f6vMEMg,_IQV4cTWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "especificacion_de_requerimientos_de_software", title: "Especificación de Requerimientos de Software (ERS)", url: "./../../TRP/capabilitypatterns/especificacion_de_requerimientos_de_software_34F096EB.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8af5e950", parentId: "934bee4a", relPath: ",_PDMKQSuLEd6RuqoM0fDtjg,_KsNd8DWGEd6XRs5f6vMEMg,_IQV4cTWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "especificacion_de_requerimientos_de_software", title: "Especificación de Requerimientos de Software (ERS)", url: "./../../TRP/capabilitypatterns/especificacion_de_requerimientos_de_software_34F096EB.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "de278100", parentId: "", relPath: ",_223xoTTJEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "5", prefix: "", name: "comprometer_requerimientos", title: "Comprometer Requerimientos", url: "./../../TRP/capabilitypatterns/comprometer_requerimientos_44A54530.html", 
+	predecessors: "1", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "8cb95c77", parentId: "de278100", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_M2MCMDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "6", prefix: "", name: "evaluar_impacto_y_factibilidad", title: "Evaluar Impacto y Factibilidad", url: "./../../TRP/capabilitypatterns/evaluar_impacto_y_factibilidad_C1A5A906.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "928e1534", parentId: "8cb95c77", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_M2MCMDWGEd6XRs5f6vMEMg,_M4Rs4TWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "area_comercial", title: "Área comercial", url: "./../../TRP/capabilitypatterns/area_comercial_C951E31C.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "f041453e", parentId: "8cb95c77", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_M2MCMDWGEd6XRs5f6vMEMg,_M4Rs4jWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "equipo_de_proyecto", title: "Equipo de proyecto", url: "./../../TRP/capabilitypatterns/equipo_de_proyecto_B7EAF732.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "93a1ca92", parentId: "8cb95c77", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_M2MCMDWGEd6XRs5f6vMEMg,_M4Rs4DWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_BEB4030C.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "38c24884", parentId: "8cb95c77", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_M2MCMDWGEd6XRs5f6vMEMg,_M5BTwDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "analisis_preliminar", title: "Análisis preliminar", url: "./../../TRP/capabilitypatterns/analisis_preliminar_DBBBEA5B.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "438a0c44", parentId: "8cb95c77", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_M2MCMDWGEd6XRs5f6vMEMg,_M5BTwjWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "orden_de_servicio", title: "Orden de servicio", url: "./../../TRP/capabilitypatterns/orden_de_servicio_D4F2DE81.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e1f4a140", parentId: "8cb95c77", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_M2MCMDWGEd6XRs5f6vMEMg,_M5BTwTWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_tiempo_ esfuerzo_y_costo", title: "Planilla de Tiempo, Esfuerzo y Costo (TEC)", url: "./../../TRP/capabilitypatterns/planilla_de_tiempo_ esfuerzo_y_costo_E659CA6B.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3b7718c5", parentId: "de278100", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_OyKmsDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "7", prefix: "", name: "negociar_y_registrar_compromisos", title: "Negociar y Registrar Compromisos", url: "./../../TRP/capabilitypatterns/negociar_y_registrar_compromisos_69752291.html", 
+	predecessors: "6", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e8a3c48d", parentId: "3b7718c5", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_OyKmsDWGEd6XRs5f6vMEMg,_M4Rs4TWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "area_comercial", title: "Área comercial", url: "./../../TRP/capabilitypatterns/area_comercial_C951E31C.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e458bb93", parentId: "3b7718c5", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_OyKmsDWGEd6XRs5f6vMEMg,_M4Rs4jWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "equipo_de_proyecto", title: "Equipo de proyecto", url: "./../../TRP/capabilitypatterns/equipo_de_proyecto_B7EAF732.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e0378f69", parentId: "3b7718c5", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_OyKmsDWGEd6XRs5f6vMEMg,_M4Rs4DWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_BEB4030C.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "441eea39", parentId: "3b7718c5", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_OyKmsDWGEd6XRs5f6vMEMg,_M5BTwjWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "orden_de_servicio", title: "Orden de servicio", url: "./../../TRP/capabilitypatterns/orden_de_servicio_D4F2DE81.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "93283876", parentId: "3b7718c5", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_OyKmsDWGEd6XRs5f6vMEMg,_M5BTwTWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_tiempo_ esfuerzo_y_costo", title: "Planilla de Tiempo, Esfuerzo y Costo (TEC)", url: "./../../TRP/capabilitypatterns/planilla_de_tiempo_ esfuerzo_y_costo_E659CA6B.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "33bd171a", parentId: "3b7718c5", relPath: ",_223xoTTJEd6iDo8YkOrw7A,_OyKmsDWGEd6XRs5f6vMEMg,_O0jMUDWGEd6XRs5f6vMEMg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_200B5E87.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ed9cd781", parentId: "", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "8", prefix: "", name: "seguir_requerimientos", title: "Seguir Requerimientos", url: "./../../TRP/capabilitypatterns/seguir_requerimientos_F30179F2.html", 
+	predecessors: "5", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "41a4f7b1", parentId: "ed9cd781", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_7SxfwDTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "9", prefix: "", name: "revisar_consistencia_de_requerimientos", title: "Revisar Consistencia de Requerimientos", url: "./../../TRP/capabilitypatterns/revisar_consistencia_de_requerimientos_F16A131E.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ed7382ff", parentId: "41a4f7b1", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_7SxfwDTKEd6iDo8YkOrw7A,_7Tq3oDTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_8B15A19B.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ecf6fa63", parentId: "41a4f7b1", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_7SxfwDTKEd6iDo8YkOrw7A,_7Tq3pDTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "carta_gantt_de_proyecto", title: "Carta Gantt de proyecto", url: "./../../TRP/capabilitypatterns/carta_gantt_de_proyecto_4FA783BA.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "36c83e62", parentId: "41a4f7b1", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_7SxfwDTKEd6iDo8YkOrw7A,_7Tq3ozTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_8EEA75D1.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3cfed485", parentId: "41a4f7b1", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_7SxfwDTKEd6iDo8YkOrw7A,_7Tq3ojTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_revisiones", title: "Plan de revisiones", url: "./../../TRP/capabilitypatterns/plan_de_revisiones_844C95C1.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "f03b2743", parentId: "41a4f7b1", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_7SxfwDTKEd6iDo8YkOrw7A,_7Tq3oTTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_95B381AB.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3210e4fd", parentId: "ed9cd781", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_CXBloDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "10", prefix: "", name: "analizar_inconsistencia_de_requerimientos", title: "Analizar Inconsistencia de Requerimientos", url: "./../../TRP/capabilitypatterns/analizar_inconsistencia_de_requerimientos_A9D309DC.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e7dd72aa", parentId: "3210e4fd", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_CXBloDTLEd6iDo8YkOrw7A,_7Tq3oDTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_8B15A19B.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "f0273a50", parentId: "3210e4fd", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_CXBloDTLEd6iDo8YkOrw7A,_7Tq3oTTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_95B381AB.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e46bc35b", parentId: "ed9cd781", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_EPkboDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "11", prefix: "", name: "identificar_cambios_en_planes", title: "Identificar Cambios en Planes", url: "./../../TRP/capabilitypatterns/identificar_cambios_en_planes_625A56BF.html", 
+	predecessors: "10", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e2bf1fb9", parentId: "e46bc35b", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_EPkboDTLEd6iDo8YkOrw7A,_7Tq3oDTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_8B15A19B.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "eb236d35", parentId: "e46bc35b", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_EPkboDTLEd6iDo8YkOrw7A,_7Tq3pDTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "carta_gantt_de_proyecto", title: "Carta Gantt de proyecto", url: "./../../TRP/capabilitypatterns/carta_gantt_de_proyecto_4FA783BA.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3a92d97d", parentId: "e46bc35b", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_EPkboDTLEd6iDo8YkOrw7A,_7Tq3ozTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_8EEA75D1.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e546d715", parentId: "e46bc35b", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_EPkboDTLEd6iDo8YkOrw7A,_7Tq3oTTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_95B381AB.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "37d39f87", parentId: "ed9cd781", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_FstIADTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "12", prefix: "", name: "iniciar_acciones_correctivas", title: "Iniciar Acciones Correctivas", url: "./../../TRP/capabilitypatterns/iniciar_acciones_correctivas_5E9FFDED.html", 
+	predecessors: "11", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3a6ef085", parentId: "37d39f87", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_FstIADTLEd6iDo8YkOrw7A,_7Tq3oDTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_8B15A19B.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9007002b", parentId: "37d39f87", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_FstIADTLEd6iDo8YkOrw7A,_7Tq3pDTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "carta_gantt_de_proyecto", title: "Carta Gantt de proyecto", url: "./../../TRP/capabilitypatterns/carta_gantt_de_proyecto_4FA783BA.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "39136884", parentId: "37d39f87", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_FstIADTLEd6iDo8YkOrw7A,_7Tq3ozTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_8EEA75D1.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e89c520c", parentId: "37d39f87", relPath: ",_v5NmgTTKEd6iDo8YkOrw7A,_FstIADTLEd6iDo8YkOrw7A,_7Tq3oTTKEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_95B381AB.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e0076c98", parentId: "", relPath: ",_QY92YTTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "13", prefix: "", name: "administrar_cambios", title: "Administrar Cambios", url: "./../../TRP/capabilitypatterns/administrar_cambios_7A85F664.html", 
+	predecessors: "", info: "", type: "Activity", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "true",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "na",
+	steps: []},
+	
+		
+		
+{id: "4679aa9b", parentId: "e0076c98", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_VqezUDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "14", prefix: "", name: "recepcionar_cambio_de_requerimiento", title: "Recepcionar Cambio de Requerimiento", url: "./../../TRP/capabilitypatterns/recepcionar_cambio_de_requerimiento_D4508DA7.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3b6e9f2a", parentId: "4679aa9b", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_VqezUDTLEd6iDo8YkOrw7A,_VrhVITTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_7FA08DBD.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e8b9a915", parentId: "4679aa9b", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_VqezUDTLEd6iDo8YkOrw7A,_VrhVIDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_7502ADAD.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9452e52b", parentId: "4679aa9b", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_VqezUDTLEd6iDo8YkOrw7A,_Vr-BETTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "minuta_de_reunion", title: "Minuta de reunión", url: "./../../TRP/capabilitypatterns/minuta_de_reunion_F9BCFA48.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "de4fcef6", parentId: "4679aa9b", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_VqezUDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "de1f9575", parentId: "4679aa9b", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_VqezUDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e791f7ed", parentId: "e0076c98", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_XW9jQDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "15", prefix: "", name: "analizar_cambios", title: "Analizar Cambios", url: "./../../TRP/capabilitypatterns/analizar_cambios_DD1496EB.html", 
+	predecessors: "14", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "38dad1d6", parentId: "e791f7ed", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_XW9jQDTLEd6iDo8YkOrw7A,_XYTAADTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "analista", title: "Analista", url: "./../../TRP/capabilitypatterns/analista_2AF05419.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "46c2a098", parentId: "e791f7ed", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_XW9jQDTLEd6iDo8YkOrw7A,_VrhVIDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_7502ADAD.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e286870b", parentId: "e791f7ed", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_XW9jQDTLEd6iDo8YkOrw7A,_XY5c8DTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_85D76723.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "437bb6f0", parentId: "e791f7ed", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_XW9jQDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3ae9ac45", parentId: "e791f7ed", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_XW9jQDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3984d034", parentId: "e0076c98", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_Y6WooDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "16", prefix: "", name: "estimar_cambios", title: "Estimar Cambios", url: "./../../TRP/capabilitypatterns/estimar_cambios_F6463372.html", 
+	predecessors: "15", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e6e5eb67", parentId: "3984d034", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_Y6WooDTLEd6iDo8YkOrw7A,_Y7sFYDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "area_comercial", title: "Área comercial", url: "./../../TRP/capabilitypatterns/area_comercial_83BF84C4.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ed80bb50", parentId: "3984d034", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_Y6WooDTLEd6iDo8YkOrw7A,_VrhVIDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_7502ADAD.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8ab10983", parentId: "3984d034", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_Y6WooDTLEd6iDo8YkOrw7A,_Y8bsQDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_tiempo_ esfuerzo_y_costo", title: "Planilla de Tiempo, Esfuerzo y Costo (TEC)", url: "./../../TRP/capabilitypatterns/planilla_de_tiempo_ esfuerzo_y_costo_30FD5BEB.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3202e231", parentId: "3984d034", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_Y6WooDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8cc81d7e", parentId: "3984d034", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_Y6WooDTLEd6iDo8YkOrw7A,_Y8bsQTTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "orden_de_servicio", title: "Orden de servicio", url: "./../../TRP/capabilitypatterns/orden_de_servicio_3B9B3BFB.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3b00b01a", parentId: "3984d034", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_Y6WooDTLEd6iDo8YkOrw7A,_XY5c8DTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_85D76723.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e88e7bf3", parentId: "3984d034", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_Y6WooDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d682e4f", parentId: "e0076c98", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_aZuJoDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "17", prefix: "", name: "aprobar_cambios1", title: "Aprobar Cambios (1)", url: "./../../TRP/capabilitypatterns/aprobar_cambios1_5B4D8CCB.html", 
+	predecessors: "16", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e3694f6e", parentId: "3d682e4f", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_aZuJoDTLEd6iDo8YkOrw7A,_abWhUDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "gerente_de_proyectos", title: "Gerente de proyectos", url: "./../../TRP/capabilitypatterns/gerente_de_proyectos_BE449729.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "920871ad", parentId: "3d682e4f", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_aZuJoDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8cbe5aa8", parentId: "3d682e4f", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_aZuJoDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3e0195cf", parentId: "e0076c98", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_azf7kDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "18", prefix: "", name: "aprobar_cambios2", title: "Aprobar Cambios (2)", url: "./../../TRP/capabilitypatterns/aprobar_cambios2_603E38B.html", 
+	predecessors: "17", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "363aecb1", parentId: "3e0195cf", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_azf7kDTLEd6iDo8YkOrw7A,_VrhVITTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_7FA08DBD.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3937a649", parentId: "3e0195cf", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_azf7kDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "de871367", parentId: "3e0195cf", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_azf7kDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e39b230a", parentId: "e0076c98", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_cStrkDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "19", prefix: "", name: "aprobar_ordenes_de_servicio_adicionales", title: "Aprobar Órdenes de Servicio Adicionales", url: "./../../TRP/capabilitypatterns/aprobar_ordenes_de_servicio_adicionales_38E032CF.html", 
+	predecessors: "", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ea5fe8ef", parentId: "e39b230a", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_cStrkDTLEd6iDo8YkOrw7A,_VrhVITTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "cliente", title: "Cliente", url: "./../../TRP/capabilitypatterns/cliente_7FA08DBD.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e79ca268", parentId: "e39b230a", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_cStrkDTLEd6iDo8YkOrw7A,_Y8bsQTTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "orden_de_servicio", title: "Orden de servicio", url: "./../../TRP/capabilitypatterns/orden_de_servicio_3B9B3BFB.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e2b99c44", parentId: "e39b230a", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_cStrkDTLEd6iDo8YkOrw7A,_Y8bsQTTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "orden_de_servicio", title: "Orden de servicio", url: "./../../TRP/capabilitypatterns/orden_de_servicio_3B9B3BFB.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8ae6df1c", parentId: "e0076c98", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_dzuLUDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "20", prefix: "", name: "actualizar_linea_base_de_requerimientos", title: "Actualizar Línea Base de Requerimientos", url: "./../../TRP/capabilitypatterns/actualizar_linea_base_de_requerimientos_26813924.html", 
+	predecessors: "19", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3a5ab0fc", parentId: "8ae6df1c", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_dzuLUDTLEd6iDo8YkOrw7A,_VrhVIDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_7502ADAD.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e1d11dc4", parentId: "8ae6df1c", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_dzuLUDTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ea65d3de", parentId: "8ae6df1c", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_dzuLUDTLEd6iDo8YkOrw7A,_XY5c8DTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_85D76723.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "45ec8b02", parentId: "e0076c98", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_fJjV0DTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "21", prefix: "", name: "actualizar_planes_y_otros_artefactos", title: "Actualizar Planes y Otros Artefactos", url: "./../../TRP/capabilitypatterns/actualizar_planes_y_otros_artefactos_827C932C.html", 
+	predecessors: "20", info: "", type: "Task Descriptor", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3addd6d1", parentId: "45ec8b02", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_fJjV0DTLEd6iDo8YkOrw7A,_VrhVIDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "jefe_de_proyecto", title: "Jefe de proyecto", url: "./../../TRP/capabilitypatterns/jefe_de_proyecto_7502ADAD.html", 
+	predecessors: "", info: "Primary Performer", type: "Role Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ee8854ab", parentId: "45ec8b02", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_fJjV0DTLEd6iDo8YkOrw7A,_XY5c8DTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "planilla_de_administracion_de_requerimientos", title: "Planilla de administración de requerimientos", url: "./../../TRP/capabilitypatterns/planilla_de_administracion_de_requerimientos_85D76723.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "360e2e21", parentId: "45ec8b02", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_fJjV0DTLEd6iDo8YkOrw7A,_Vr-BEDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "solicitud_de_requerimientos", title: "Solicitud de requerimientos", url: "./../../TRP/capabilitypatterns/solicitud_de_requerimientos_EF1F1A38.html", 
+	predecessors: "", info: "Mandatory Input", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e863c4dd", parentId: "45ec8b02", relPath: ",_QY92YTTLEd6iDo8YkOrw7A,_fJjV0DTLEd6iDo8YkOrw7A,_fKctsDTLEd6iDo8YkOrw7A", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "plan_de_proyecto", title: "Plan de proyecto", url: "./../../TRP/capabilitypatterns/plan_de_proyecto_C5CE4ECF.html", 
+	predecessors: "", info: "Output", type: "Artifact Descriptor", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

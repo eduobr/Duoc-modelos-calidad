@@ -1,0 +1,38 @@
+Info: DeliveryProcess:Programacion: 584 mini seconds publishing element
+Info: DeliveryProcess:Programacion: 157 mini seconds publishing process specific layout data
+Info: Activity:Implementar Interfaces y Comunicaciones: 50 mini seconds publishing element
+Info: Task:desarrollar_interfaces_y_comunicaciones: 94 mini seconds publishing element
+Info: TaskDescriptor:desarrollar_interfaces_y_comunicaciones: 6 mini seconds publishing element
+Info: Artifact:ers: 354 mini seconds publishing element
+Info: WorkProductDescriptor:ers: 4 mini seconds publishing element
+Info: Artifact:modelo_de_diseno: 90 mini seconds publishing element
+Info: WorkProductDescriptor:modelo_de_diseno: 2 mini seconds publishing element
+Info: Task:realizar_pruebas_caja_negra: 7 mini seconds publishing element
+Info: TaskDescriptor:realizar_pruebas_caja_negra: 2 mini seconds publishing element
+Info: Activity:Implementar Base de Datos: 47 mini seconds publishing element
+Info: Task:desarrollar_base_de_datos: 6 mini seconds publishing element
+Info: TaskDescriptor:desarrollar_base_de_datos: 2 mini seconds publishing element
+Info: Role:programador: 187 mini seconds publishing element
+Info: RoleDescriptor:programador: 3 mini seconds publishing element
+Info: WorkProductDescriptor:ers: 2 mini seconds publishing element
+Info: WorkProductDescriptor:modelo_de_diseno: 2 mini seconds publishing element
+Info: Task:realizar_pruebas_de_rendimiento: 4 mini seconds publishing element
+Info: TaskDescriptor:realizar_pruebas_de_rendimiento: 1 mini seconds publishing element
+Info: Activity:Implementar Componentes y Programas: 50 mini seconds publishing element
+Info: Task:desarrollar_componentes_y_programas: 5 mini seconds publishing element
+Info: TaskDescriptor:desarrollar_componentes_y_programas: 2 mini seconds publishing element
+Info: WorkProductDescriptor:ers: 2 mini seconds publishing element
+Info: WorkProductDescriptor:modelo_de_diseno: 2 mini seconds publishing element
+Info: TaskDescriptor:realizar_pruebas_caja_negra: 2 mini seconds publishing element
+Info: Activity:Implementar Web Services: 48 mini seconds publishing element
+Info: Task:desarrollar_web_services: 4 mini seconds publishing element
+Info: TaskDescriptor:desarrollar_web_services: 2 mini seconds publishing element
+Info: WorkProductDescriptor:ers: 2 mini seconds publishing element
+Info: Task:realizar_pruebas_caja_gris: 5 mini seconds publishing element
+Info: TaskDescriptor:realizar_pruebas_caja_gris: 1 mini seconds publishing element
+Info: CustomCategory:Configuration free process view: 83 mini seconds publishing element
+Info: CustomCategory:Tasks: 3 mini seconds publishing element
+Info: CustomCategory:Roles: 2 mini seconds publishing element
+Info: CustomCategory:Work Products: 3 mini seconds publishing element
+Info: CustomCategory:Processes: 2 mini seconds publishing element
+Info: : Publishing time: 0 minutes 7 seconds

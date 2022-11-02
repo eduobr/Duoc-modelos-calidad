@@ -1,0 +1,20 @@
+Entrega 3:-EDT
+	  -TEC
+	  -CASOS DE USO DICCIONARIO(5)
+	  -PLAN DE PRUEBAS
+	  -Plan de Instalción
+	  -CASOS DE PRUEBA(5) REFERENTES A LOS CASOS DE USO(1).
+	  -CAJA NEGRA(1), CAJA BLANCA(2), CAJA GRIS(2).
+
+Plan de Instalación
+Ambiente
+-ambiente de desarollo
+-ambiente de pruebas
+-ambiente de despliegue
+
+Integracion y validacion
+-acta de entrega y certificacion de validacion
+
+Documentacion
+-Documentos a entegregar
+-manuales de uso,referencia y instalacion

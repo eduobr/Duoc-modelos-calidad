@@ -1,0 +1,24 @@
+Info: DeliveryProcess:instalacion: 420 mini seconds publishing element
+Info: DeliveryProcess:instalacion: 456 mini seconds publishing process specific layout data
+Info: Activity:Preparar Ambiente: 107 mini seconds publishing element
+Info: TaskDescriptor:Chequear Ambiente Actual: 12 mini seconds publishing element
+Info: Role:programador: 53 mini seconds publishing element
+Info: RoleDescriptor:programador: 4 mini seconds publishing element
+Info: TaskDescriptor:Instalar y Configurar Ambiente: 8 mini seconds publishing element
+Info: Activity:Generar Documentacion: 102 mini seconds publishing element
+Info: TaskDescriptor:Elaborar Manual de Instalacion: 8 mini seconds publishing element
+Info: RoleDescriptor:programador: 4 mini seconds publishing element
+Info: TaskDescriptor:Elaborar Documentos Adicionales: 9 mini seconds publishing element
+Info: TaskDescriptor:Planificar Instalacion e Integracion: 8 mini seconds publishing element
+Info: RoleDescriptor:programador: 7 mini seconds publishing element
+Info: TaskDescriptor:Identificar Piezas de Software para Instalacion: 8 mini seconds publishing element
+Info: TaskDescriptor:Integrar Piezas de Software: 8 mini seconds publishing element
+Info: TaskDescriptor:Realizar Pruebas de Integracion: 11 mini seconds publishing element
+Info: TaskDescriptor:Instalar en Certificacion: 9 mini seconds publishing element
+Info: TaskDescriptor:Realizar Pruebas de Instalacion en Certificacion: 8 mini seconds publishing element
+Info: TaskDescriptor:Realizar Paso a Produccion: 8 mini seconds publishing element
+Info: TaskDescriptor:Instalar en Produccion: 7 mini seconds publishing element
+Info: CustomCategory:Configuration free process view: 9 mini seconds publishing element
+Info: CustomCategory:Roles: 8 mini seconds publishing element
+Info: CustomCategory:Processes: 5 mini seconds publishing element
+Info: : Publishing time: 0 minutes 3 seconds

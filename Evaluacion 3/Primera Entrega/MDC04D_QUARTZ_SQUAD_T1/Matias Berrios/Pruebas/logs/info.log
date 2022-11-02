@@ -1,0 +1,53 @@
+Info: DeliveryProcess:Plan de Prueba: 220 mini seconds publishing element
+Info: DeliveryProcess:Plan de Prueba: 380 mini seconds publishing process specific layout data
+Info: Activity:Desarrollar el Plan de Prueba: 276 mini seconds publishing element
+Info: Task:generar_el_plan_de_pruebas: 32 mini seconds publishing element
+Info: TaskDescriptor:generar_el_plan_de_pruebas: 16 mini seconds publishing element
+Info: Role:arquitecto: 104 mini seconds publishing element
+Info: RoleDescriptor:arquitecto: 12 mini seconds publishing element
+Info: Role:jefe_de_proyecto: 148 mini seconds publishing element
+Info: RoleDescriptor:jefe_de_proyecto: 20 mini seconds publishing element
+Info: Artifact:especificacion_de_ambientes: 44 mini seconds publishing element
+Info: WorkProductDescriptor:especificacion_de_ambientes: 8 mini seconds publishing element
+Info: Artifact:especificacion_de_requerimiento_de_sw: 36 mini seconds publishing element
+Info: WorkProductDescriptor:especificacion_de_requerimiento_de_sw: 12 mini seconds publishing element
+Info: Artifact:plan_de_proyecto: 40 mini seconds publishing element
+Info: WorkProductDescriptor:plan_de_proyecto: 8 mini seconds publishing element
+Info: Artifact:plan_de_prueba: 56 mini seconds publishing element
+Info: WorkProductDescriptor:plan_de_prueba: 12 mini seconds publishing element
+Info: Task:crear_casos_de_prueba: 24 mini seconds publishing element
+Info: TaskDescriptor:crear_casos_de_prueba: 12 mini seconds publishing element
+Info: Artifact:modelo_de_analisis: 36 mini seconds publishing element
+Info: WorkProductDescriptor:modelo_de_analisis: 8 mini seconds publishing element
+Info: Activity:Ejecutar Pruebas: 546 mini seconds publishing element
+Info: Task:validar: 20 mini seconds publishing element
+Info: TaskDescriptor:validar: 4 mini seconds publishing element
+Info: RoleDescriptor:jefe_de_proyecto: 16 mini seconds publishing element
+Info: WorkProductDescriptor:plan_de_prueba: 20 mini seconds publishing element
+Info: Artifact:plan_de_revisiones: 40 mini seconds publishing element
+Info: WorkProductDescriptor:plan_de_revisiones: 16 mini seconds publishing element
+Info: Task:verificar: 20 mini seconds publishing element
+Info: TaskDescriptor:verificar: 8 mini seconds publishing element
+Info: Role:testeador: 88 mini seconds publishing element
+Info: RoleDescriptor:testeador: 12 mini seconds publishing element
+Info: Task:aplicar_el_plan_de_prueba: 20 mini seconds publishing element
+Info: TaskDescriptor:aplicar_el_plan_de_prueba: 8 mini seconds publishing element
+Info: Role:equipo_de_proyecto: 80 mini seconds publishing element
+Info: RoleDescriptor:equipo_de_proyecto: 8 mini seconds publishing element
+Info: Task:preparar_el_plan_de_revision: 20 mini seconds publishing element
+Info: TaskDescriptor:preparar_el_plan_de_revision: 8 mini seconds publishing element
+Info: WorkProductDescriptor:plan_de_proyecto: 8 mini seconds publishing element
+Info: Task:ejecutar_y_analizar_revisiones: 20 mini seconds publishing element
+Info: TaskDescriptor:ejecutar_y_analizar_revisiones: 8 mini seconds publishing element
+Info: RoleDescriptor:arquitecto: 8 mini seconds publishing element
+Info: WorkProductDescriptor:modelo_de_analisis: 8 mini seconds publishing element
+Info: Template:plantilla_ers: 60 mini seconds publishing element
+Info: Template:plantilla_plan_de_proyecto: 28 mini seconds publishing element
+Info: Template:plantilla_plan_de_pruebas: 28 mini seconds publishing element
+Info: CustomCategory:Configuration free process view: 24 mini seconds publishing element
+Info: CustomCategory:Tasks: 12 mini seconds publishing element
+Info: CustomCategory:Roles: 8 mini seconds publishing element
+Info: CustomCategory:Work Products: 12 mini seconds publishing element
+Info: CustomCategory:Guidance: 12 mini seconds publishing element
+Info: CustomCategory:Processes: 12 mini seconds publishing element
+Info: : Publishing time: 0 minutes 4 seconds

@@ -1,0 +1,53 @@
+Info: DeliveryProcess:Proceso: 78 mini seconds publishing element
+Info: DeliveryProcess:Proceso: 272 mini seconds publishing process specific layout data
+Info: Activity:Definir objetivos de medicion: 53 mini seconds publishing element
+Info: Task:Establecer objetivos de la medicion: 6 mini seconds publishing element
+Info: TaskDescriptor:Establecer objetivos de la medicion: 2 mini seconds publishing element
+Info: Artifact:Documento Plan de Proyecto: 21 mini seconds publishing element
+Info: WorkProductDescriptor:Documento Plan de Proyecto: 6 mini seconds publishing element
+Info: Task:Especificar Metricas: 5 mini seconds publishing element
+Info: TaskDescriptor:Especificar Metricas: 2 mini seconds publishing element
+Info: Task:Especificar procedimientos de recolección y almacenamiento de datos: 23 mini seconds publishing element
+Info: TaskDescriptor:Especificar procedimientos de recolección y almacenamiento de datos: 2 mini seconds publishing element
+Info: Task:Especificar procedimientos de análisis: 5 mini seconds publishing element
+Info: TaskDescriptor:Especificar procedimientos de análisis: 1 mini seconds publishing element
+Info: Task:Informar métricas definidas a involucrados: 4 mini seconds publishing element
+Info: TaskDescriptor:Informar métricas definidas a involucrados: 2 mini seconds publishing element
+Info: Activity:Analizar resultados de medicion: 274 mini seconds publishing element
+Info: Task:Recolectar datos de las mediciones: 6 mini seconds publishing element
+Info: TaskDescriptor:Recolectar datos de las mediciones: 2 mini seconds publishing element
+Info: Role:Analista de Calidad: 24 mini seconds publishing element
+Info: RoleDescriptor:Analista de Calidad: 3 mini seconds publishing element
+Info: Role:Equipo de Proyecto: 20 mini seconds publishing element
+Info: RoleDescriptor:Equipo de Proyecto: 3 mini seconds publishing element
+Info: Role:Grupo de Ingenieria de Procesos: 33 mini seconds publishing element
+Info: RoleDescriptor:Grupo de Ingenieria de Procesos: 5 mini seconds publishing element
+Info: Artifact:Documento de administracion de requerimientos: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Documento de administracion de requerimientos: 4 mini seconds publishing element
+Info: Artifact:Documento de registro de horas: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Documento de registro de horas: 4 mini seconds publishing element
+Info: Artifact:Documento de verificacion de proceso: 14 mini seconds publishing element
+Info: WorkProductDescriptor:Documento de verificacion de proceso: 4 mini seconds publishing element
+Info: Artifact:Documento evaluacion de estado: 13 mini seconds publishing element
+Info: WorkProductDescriptor:Documento evaluacion de estado: 3 mini seconds publishing element
+Info: Task:Analizar los datos recolectados: 6 mini seconds publishing element
+Info: TaskDescriptor:Analizar los datos recolectados: 2 mini seconds publishing element
+Info: Role:Gerente de Proyectos: 25 mini seconds publishing element
+Info: RoleDescriptor:Gerente de Proyectos: 3 mini seconds publishing element
+Info: WorkProductDescriptor:Documento Plan de Proyecto: 3 mini seconds publishing element
+Info: Task:Almacenar los datos recolectados: 4 mini seconds publishing element
+Info: TaskDescriptor:Almacenar los datos recolectados: 1 mini seconds publishing element
+Info: Task:Comunicar resultados: 5 mini seconds publishing element
+Info: TaskDescriptor:Comunicar resultados: 2 mini seconds publishing element
+Info: Template:Plantilla Plan de Proyectos: 12 mini seconds publishing element
+Info: Template:Planilla de registro de horas: 9 mini seconds publishing element
+Info: CustomCategory:Configuration free process view: 5 mini seconds publishing element
+Info: CustomCategory:Tasks: 3 mini seconds publishing element
+Info: CustomCategory:Roles: 3 mini seconds publishing element
+Info: Template:Planilla de administración de requerimientos: 9 mini seconds publishing element
+Info: Template:Planilla verificación del proceso: 9 mini seconds publishing element
+Info: Template:Planilla de evaluación de estado: 9 mini seconds publishing element
+Info: CustomCategory:Work Products: 3 mini seconds publishing element
+Info: CustomCategory:Guidance: 3 mini seconds publishing element
+Info: CustomCategory:Processes: 3 mini seconds publishing element
+Info: : Publishing time: 0 minutes 1 seconds

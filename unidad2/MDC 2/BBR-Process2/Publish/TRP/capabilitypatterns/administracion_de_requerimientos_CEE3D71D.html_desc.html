@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: Administraci&oacute;n de Requerimientos</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="administracion_de_requerimientos">
+<meta name="uma.presentationName" content="Administraci&oacute;n de Requerimientos">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_30-GQSuBEd6RuqoM0fDtjg&path=_30-GQSuBEd6RuqoM0fDtjg';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo, defaultQueryStr, false, true, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div id="page-guid" value="_30-GQSuBEd6RuqoM0fDtjg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: Administraci&oacute;n de Requerimientos</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="activeTab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="activeTab">Description</td><td width="21"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WBS" href="./../../TRP/capabilitypatterns/administracion_de_requerimientos_CEE3D71D.html_wbs.html"><span style="white-space:nowrap;">Work Breakdown Structure</span></a></td><td width="1"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../TRP/capabilitypatterns/administracion_de_requerimientos_CEE3D71D.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../TRP/capabilitypatterns/administracion_de_requerimientos_CEE3D71D.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="2" class="activeTab"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="2"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Purpose</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p class="MsoNormal" style="MARGIN: 12pt 0cm">
+    <span style="mso-ansi-language: ES">Administrar los requerimientos de los productos del proyecto y los componentes de
+    los mismos e identificar las inconsistencias entre esos requerimientos y los planes del proyecto y productos de
+    trabajo.</span>
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Context</th><td class="sectionTableCell">
+<ul>
+<li>
+<a>Tutelkan Reference Process</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt">
+    <b style="mso-bidi-font-weight: normal"><span style="mso-ansi-language: ES">Propósito</span></b>
+</p><br />
+<p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt">
+    <span style="mso-ansi-language: ES">Administrar los requerimientos de los productos del proyecto y los componentes de
+    los mismos e identificar las inconsistencias entre esos requerimientos y los planes del proyecto y productos de
+    trabajo.</span>
+</p><br />
+<p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt">
+    <b style="mso-bidi-font-weight: normal"><span style="mso-ansi-language: ES">Objetivos</span></b>
+</p><br />
+<p class="MsoListBullet2" style="MARGIN: 0cm 0cm 0pt 32.4pt">
+    <span     style="FONT-FAMILY: Symbol; mso-ansi-language: ES; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span     style="mso-list: Ignore">·<span     style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span> <span     style="mso-ansi-language: ES">Administrar los requerimientos e identificar las inconsistencias de éstos con el plan de
+    proyecto y los productos de trabajo.</span>
+</p>
+<p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt">
+    <br />
+    <strong>Notas Introductorias</strong>
+</p>
+<p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt">
+    <br />
+    Para determinar el estado de las actividades de Administración de Requerimientos se debe medir y analizar:<br />
+</p>
+<ul>
+    <li>
+        <div class="MsoNormal" style="MARGIN: 0cm 0cm 0pt">
+            El esfuerzo y tiempo utilizados por cada tarea de Administración de Requerimientos.
+        </div>
+    </li>
+    <li>
+        <div class="MsoNormal" style="MARGIN: 0cm 0cm 0pt">
+            El estado de los requerimientos asignados.
+        </div>
+    </li>
+    <li>
+        <div class="MsoNormal" style="MARGIN: 0cm 0cm 0pt">
+            El número de nuevos requerimientos y cambios generados durante el proyecto.<br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Properties</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0" title="Properties" summary="Properties">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row" id="property_Event Driven" abbr="Event Driven">Event Driven</th><td class="sectionTableCell" align="left" headers="property_Event Driven"><img width="20" height="15" alt="" title="" src="./../../images/indent.gif"></td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row" id="property_Multiple Occurrences" abbr="Multiple Occurrences">Multiple Occurrences</th><td class="sectionTableCell" align="left" headers="property_Multiple Occurrences"><img width="20" height="15" alt="" title="" src="./../../images/indent.gif"></td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row" id="property_Ongoing" abbr="Ongoing">Ongoing</th><td class="sectionTableCell" align="left" headers="property_Ongoing"><img width="20" height="15" alt="" title="" src="./../../images/indent.gif"></td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row" id="property_Optional" abbr="Optional">Optional</th><td class="sectionTableCell" align="left" headers="property_Optional"><img width="20" height="15" alt="" title="" src="./../../images/indent.gif"></td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row" id="property_Planned" abbr="Planned">Planned</th><td class="sectionTableCell" align="left" headers="property_Planned"><img width="20" height="15" alt="Yes" title="Yes" src="./../../images/true.gif"></td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row" id="property_Repeatable" abbr="Repeatable">Repeatable</th><td class="sectionTableCell" align="left" headers="property_Repeatable"><img width="20" height="15" alt="" title="" src="./../../images/indent.gif"></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>
